@@ -1,4 +1,4 @@
-Column1,#,Country,Num Players,Women,% of Women,FIDE Average,GMs,IMs,FMs,WGMs,WIMs,WFMs,Age Avg,world_population.Rank,world_population.CCA3,world_population.Country,world_population.Capital,world_population.Continent,world_population.2022 Population
+Column1,#,Country,Num Players,Women,% of Women,FIDE Average,GMs,IMs,FMs,WGMs,WIMs,WFMs,Age Avg,world_population.Rank,CCA3,world_population.Country,world_population.Capital,world_population.Continent,world_population.2022 Population
 132,133,Afghanistan,78,1,1.28,1650,0,0,5,0,0,0,40,36,AFG,Afghanistan,Kabul,Asia,41128771
 105,106,Albania,234,17,7.26,1751,1,7,6,0,0,3,43,138,ALB,Albania,Tirana,Europe,2842321
 72,73,Algeria,633,104,16.43,1591,3,12,13,0,12,8,31,34,DZA,Algeria,Algiers,Africa,44903225
