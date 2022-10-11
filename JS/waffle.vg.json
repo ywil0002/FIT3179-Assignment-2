@@ -1,0 +1,54 @@
+{
+    
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Who wins more games on Lichess.com" },
+    "data": {
+        "values": [
+            {"category": "white", "value": 10001},
+            {"category": "black", "value": 9107}
+          ]
+     },
+    "transform": [
+        {"joinaggregate": [{"op": "sum", "field": "value", "as": "CountGames"}]},
+        {"calculate": "round(datum.value/datum.CountGames * 100)","as": "P"},
+        {"calculate": "sequence(1,datum.P+1)", "as": "S"},
+        {"flatten": ["S"]},
+        {
+            "window": [{"op": "row_number", "as": "id"}],
+            "sort": [{"field": "category", "order": "descending"}]
+        },
+        {
+            "calculate": "ceil (datum.id / 10)", "as": "row"
+        },
+        {
+            "calculate": "datum.id - datum.row * 10", "as": "col"
+        }
+    ],
+    "mark": {
+        "type": "square",
+        "stroke": "black",
+        "strokeWidth": 1
+    },
+    "encoding": {
+        "x":{
+            "field": "col", 
+            "type": "ordinal",
+            "axis": null
+        },
+       "y":{
+            "field": "row",
+            "type": "ordinal",
+            "axis": null
+        },
+        "color":{
+            "field": "category",
+            "type": "nominal",
+            "scale": {
+                "domain": ["white","black"],
+                "range": ["white","black"]
+            }
+        },
+        "size": {"value": 241}
+    }
+}
+    
