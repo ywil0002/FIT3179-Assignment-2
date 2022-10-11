@@ -1,0 +1,151 @@
+fide_id,name,federation,gender,title,yob,Attribute,Value
+1503014,"Carlsen, Magnus",NOR,M,GM,1990,standard,2862
+1503014,"Carlsen, Magnus",NOR,M,GM,1990,rapid,2881
+1503014,"Carlsen, Magnus",NOR,M,GM,1990,blitz,2886
+2020009,"Caruana, Fabiano",USA,M,GM,1992,standard,2823
+2020009,"Caruana, Fabiano",USA,M,GM,1992,rapid,2773
+2020009,"Caruana, Fabiano",USA,M,GM,1992,blitz,2711
+4100018,"Kasparov, Garry",RUS,M,GM,1963,standard,2812
+4100018,"Kasparov, Garry",RUS,M,GM,1963,rapid,2783
+4100018,"Kasparov, Garry",RUS,M,GM,1963,blitz,2801
+8603677,"Ding, Liren",CHN,M,GM,1992,standard,2791
+8603677,"Ding, Liren",CHN,M,GM,1992,rapid,2836
+8603677,"Ding, Liren",CHN,M,GM,1992,blitz,2788
+4168119,"Nepomniachtchi, Ian",RUS,M,GM,1990,standard,2789
+4168119,"Nepomniachtchi, Ian",RUS,M,GM,1990,rapid,2778
+4168119,"Nepomniachtchi, Ian",RUS,M,GM,1990,blitz,2785
+623539,"Vachier-Lagrave, Maxime",FRA,M,GM,1990,standard,2784
+623539,"Vachier-Lagrave, Maxime",FRA,M,GM,1990,rapid,2860
+623539,"Vachier-Lagrave, Maxime",FRA,M,GM,1990,blitz,2822
+13300474,"Aronian, Levon",ARM,M,GM,1982,standard,2781
+13300474,"Aronian, Levon",ARM,M,GM,1982,rapid,2778
+13300474,"Aronian, Levon",ARM,M,GM,1982,blitz,2739
+4126025,"Grischuk, Alexander",RUS,M,GM,1983,standard,2777
+4126025,"Grischuk, Alexander",RUS,M,GM,1983,rapid,2784
+4126025,"Grischuk, Alexander",RUS,M,GM,1983,blitz,2765
+13401319,"Mamedyarov, Shakhriyar",AZE,M,GM,1985,standard,2770
+13401319,"Mamedyarov, Shakhriyar",AZE,M,GM,1985,rapid,2761
+13401319,"Mamedyarov, Shakhriyar",AZE,M,GM,1985,blitz,2716
+5202213,"So, Wesley",USA,M,GM,1993,standard,2770
+5202213,"So, Wesley",USA,M,GM,1993,rapid,2741
+5202213,"So, Wesley",USA,M,GM,1993,blitz,2816
+13400924,"Radjabov, Teimour",AZE,M,GM,1987,standard,2765
+13400924,"Radjabov, Teimour",AZE,M,GM,1987,rapid,2758
+13400924,"Radjabov, Teimour",AZE,M,GM,1987,blitz,2757
+24116068,"Giri, Anish",NED,M,GM,1994,standard,2764
+24116068,"Giri, Anish",NED,M,GM,1994,rapid,2731
+24116068,"Giri, Anish",NED,M,GM,1994,blitz,2752
+8602883,"Wang, Hao",CHN,M,GM,1989,standard,2763
+8602883,"Wang, Hao",CHN,M,GM,1989,rapid,2750
+8602883,"Wang, Hao",CHN,M,GM,1989,blitz,2712
+738590,"Rapport, Richard",HUN,M,GM,1996,standard,2759
+738590,"Rapport, Richard",HUN,M,GM,1996,rapid,2727
+738590,"Rapport, Richard",HUN,M,GM,1996,blitz,2759
+3503240,"Dominguez Perez, Leinier",USA,M,GM,1983,standard,2758
+3503240,"Dominguez Perez, Leinier",USA,M,GM,1983,rapid,2786
+3503240,"Dominguez Perez, Leinier",USA,M,GM,1983,blitz,2654
+14109603,"Karjakin, Sergey",RUS,M,GM,1990,standard,2757
+14109603,"Karjakin, Sergey",RUS,M,GM,1990,rapid,2709
+14109603,"Karjakin, Sergey",RUS,M,GM,1990,blitz,2765
+4101588,"Kramnik, Vladimir",RUS,M,GM,1975,standard,2753
+4101588,"Kramnik, Vladimir",RUS,M,GM,1975,rapid,2756
+4101588,"Kramnik, Vladimir",RUS,M,GM,1975,blitz,2797
+5000017,"Anand, Viswanathan",IND,M,GM,1969,standard,2753
+5000017,"Anand, Viswanathan",IND,M,GM,1969,rapid,2751
+5000017,"Anand, Viswanathan",IND,M,GM,1969,blitz,2785
+12573981,"Firouzja, Alireza",FID,M,GM,2003,standard,2749
+12573981,"Firouzja, Alireza",FID,M,GM,2003,rapid,2703
+12573981,"Firouzja, Alireza",FID,M,GM,2003,blitz,2770
+1170546,"Duda, Jan-Krzysztof",POL,M,GM,1998,standard,2743
+1170546,"Duda, Jan-Krzysztof",POL,M,GM,1998,rapid,2774
+1170546,"Duda, Jan-Krzysztof",POL,M,GM,1998,blitz,2799
+2016192,"Nakamura, Hikaru",USA,M,GM,1987,standard,2736
+2016192,"Nakamura, Hikaru",USA,M,GM,1987,rapid,2829
+2016192,"Nakamura, Hikaru",USA,M,GM,1987,blitz,2900
+2900084,"Topalov, Veselin",BUL,M,GM,1975,standard,2735
+2900084,"Topalov, Veselin",BUL,M,GM,1975,rapid,2707
+2900084,"Topalov, Veselin",BUL,M,GM,1975,blitz,2667
+8603405,"Wei, Yi",CHN,M,GM,1999,standard,2732
+8603405,"Wei, Yi",CHN,M,GM,1999,rapid,2752
+8603405,"Wei, Yi",CHN,M,GM,1999,blitz,2686
+5007003,"Harikrishna, Pentala",IND,M,GM,1986,standard,2732
+5007003,"Harikrishna, Pentala",IND,M,GM,1986,rapid,2705
+5007003,"Harikrishna, Pentala",IND,M,GM,1986,blitz,2614
+5029465,"Vidit, Santosh Gujrathi",IND,M,GM,1994,standard,2726
+5029465,"Vidit, Santosh Gujrathi",IND,M,GM,1994,rapid,2636
+5029465,"Vidit, Santosh Gujrathi",IND,M,GM,1994,blitz,2735
+4158814,"Andreikin, Dmitry",RUS,M,GM,1990,standard,2725
+4158814,"Andreikin, Dmitry",RUS,M,GM,1990,rapid,2740
+4158814,"Andreikin, Dmitry",RUS,M,GM,1990,blitz,2782
+400041,"Adams, Michael",ENG,M,GM,1971,standard,2716
+400041,"Adams, Michael",ENG,M,GM,1971,rapid,2684
+400041,"Adams, Michael",ENG,M,GM,1971,blitz,2742
+4152956,"Vitiugov, Nikita",RUS,M,GM,1987,standard,2715
+4152956,"Vitiugov, Nikita",RUS,M,GM,1987,rapid,2628
+4152956,"Vitiugov, Nikita",RUS,M,GM,1987,blitz,2673
+4102142,"Svidler, Peter",RUS,M,GM,1976,standard,2714
+4102142,"Svidler, Peter",RUS,M,GM,1976,rapid,2742
+4102142,"Svidler, Peter",RUS,M,GM,1976,blitz,2754
+2205530,"Vallejo Pons, Francisco",ESP,M,GM,1982,standard,2710
+2205530,"Vallejo Pons, Francisco",ESP,M,GM,1982,rapid,2656
+2205530,"Vallejo Pons, Francisco",ESP,M,GM,1982,blitz,2643
+24126055,"Dubov, Daniil",RUS,M,GM,1996,standard,2710
+24126055,"Dubov, Daniil",RUS,M,GM,1996,rapid,2770
+24126055,"Dubov, Daniil",RUS,M,GM,1996,blitz,2722
+12401137,"Le, Quang Liem",VIE,M,GM,1991,standard,2709
+12401137,"Le, Quang Liem",VIE,M,GM,1991,rapid,2744
+12401137,"Le, Quang Liem",VIE,M,GM,1991,blitz,2690
+2047640,"Xiong, Jeffery",USA,M,GM,2000,standard,2709
+2047640,"Xiong, Jeffery",USA,M,GM,2000,rapid,2730
+2047640,"Xiong, Jeffery",USA,M,GM,2000,blitz,2724
+8603820,"Yu, Yangyi",CHN,M,GM,1994,standard,2709
+8603820,"Yu, Yangyi",CHN,M,GM,1994,rapid,2738
+8603820,"Yu, Yangyi",CHN,M,GM,1994,blitz,2808
+24101605,"Artemiev, Vladislav",RUS,M,GM,1998,standard,2709
+24101605,"Artemiev, Vladislav",RUS,M,GM,1998,rapid,2757
+24101605,"Artemiev, Vladislav",RUS,M,GM,1998,blitz,2783
+4147235,"Tomashevsky, Evgeny",RUS,M,GM,1987,standard,2706
+4147235,"Tomashevsky, Evgeny",RUS,M,GM,1987,rapid,2681
+4147235,"Tomashevsky, Evgeny",RUS,M,GM,1987,blitz,2695
+1118358,"Wojtaszek, Radoslaw",POL,M,GM,1987,standard,2705
+1118358,"Wojtaszek, Radoslaw",POL,M,GM,1987,rapid,2703
+1118358,"Wojtaszek, Radoslaw",POL,M,GM,1987,blitz,2730
+8601445,"Bu, Xiangzhi",CHN,M,GM,1985,standard,2705
+8601445,"Bu, Xiangzhi",CHN,M,GM,1985,rapid,2642
+8601445,"Bu, Xiangzhi",CHN,M,GM,1985,blitz,2760
+14109182,"Kryvoruchko, Yuriy",UKR,M,GM,1986,standard,2699
+14109182,"Kryvoruchko, Yuriy",UKR,M,GM,1986,rapid,2697
+14109182,"Kryvoruchko, Yuriy",UKR,M,GM,1986,blitz,2617
+309095,"Navara, David",CZE,M,GM,1985,standard,2697
+309095,"Navara, David",CZE,M,GM,1985,rapid,2717
+309095,"Navara, David",CZE,M,GM,1985,blitz,2758
+4135539,"Alekseenko, Kirill",RUS,M,GM,1997,standard,2696
+4135539,"Alekseenko, Kirill",RUS,M,GM,1997,rapid,2661
+4135539,"Alekseenko, Kirill",RUS,M,GM,1997,blitz,2580
+400173,"Sadler, Matthew D",ENG,M,GM,1974,standard,2694
+400173,"Sadler, Matthew D",ENG,M,GM,1974,rapid,2673
+400173,"Sadler, Matthew D",ENG,M,GM,1974,blitz,2646
+10601457,"Amin, Bassem",EGY,M,GM,1988,standard,2693
+10601457,"Amin, Bassem",EGY,M,GM,1988,rapid,2608
+10601457,"Amin, Bassem",EGY,M,GM,1988,blitz,2617
+14105730,"Korobov, Anton",UKR,M,GM,1985,standard,2692
+14105730,"Korobov, Anton",UKR,M,GM,1985,rapid,2794
+14105730,"Korobov, Anton",UKR,M,GM,1985,blitz,2755
+2004887,"Shankland, Sam",USA,M,GM,1991,standard,2691
+2004887,"Shankland, Sam",USA,M,GM,1991,rapid,2609
+2004887,"Shankland, Sam",USA,M,GM,1991,blitz,2704
+24107581,"Predke, Alexandr",RUS,M,GM,1994,standard,2690
+24107581,"Predke, Alexandr",RUS,M,GM,1994,rapid,2633
+24107581,"Predke, Alexandr",RUS,M,GM,1994,blitz,2642
+4168003,"Matlakov, Maxim",RUS,M,GM,1991,standard,2688
+4168003,"Matlakov, Maxim",RUS,M,GM,1991,rapid,2667
+4168003,"Matlakov, Maxim",RUS,M,GM,1991,blitz,2760
+702293,"Almasi, Zoltan",HUN,M,GM,1976,standard,2687
+702293,"Almasi, Zoltan",HUN,M,GM,1976,rapid,2621
+702293,"Almasi, Zoltan",HUN,M,GM,1976,blitz,2585
+24130737,"Fedoseev, Vladimir",RUS,M,GM,1995,standard,2687
+24130737,"Fedoseev, Vladimir",RUS,M,GM,1995,rapid,2688
+24130737,"Fedoseev, Vladimir",RUS,M,GM,1995,blitz,2756
+14109530,"Areshchenko, Alexander",UKR,M,GM,1986,standard,2687
+14109530,"Areshchenko, Alexander",UKR,M,GM,1986,rapid,2622
+14109530,"Areshchenko, Alexander",UKR,M,GM,1986,blitz,2615
