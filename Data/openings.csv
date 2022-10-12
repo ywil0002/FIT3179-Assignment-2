@@ -1,4 +1,4 @@
-short_opening_name,opening_name,winner,opening_eco,Number of games,White Rating,Black Rating,turns
+short_opening_name,opening_name,winner,opening_eco,num_games,white_rating,black_rating,turns
 Slav Defense,Slav Defense: Exchange Variation,white,D10,6,1568,1363,56
 Nimzowitsch Defense,Nimzowitsch Defense: Kennedy Variation,black,B00,2,1329,1336,27
 King's Pawn Game,King's Pawn Game: Leonardis Variation,white,C20,67,1370,1320,63
