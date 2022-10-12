@@ -47,10 +47,10 @@ Alekhine Defense,Alekhine Defense: Two Pawn Attack,white,B02,8,1661,1565,77
 Alekhine Defense,Alekhine Defense: Two Pawn Attack |  Lasker Variation,black,B02,1,1228,1266,37
 Alekhine Defense,Alekhine Defense: Two Pawn Attack |  Lasker Variation,draw,B02,1,1500,1561,20
 Alekhine Defense,Alekhine Defense: Two Pawn Attack |  Lasker Variation,white,B02,1,1436,1478,39
-Alekhine Defense ,Alekhine Defense #2,white,B03,1,1401,1354,39
-Alekhine Defense ,Alekhine Defense #2,draw,B03,1,1849,1826,13
-Alekhine Defense ,Alekhine Defense #2,black,B03,1,1350,1201,118
-Alekhine Defense ,Alekhine Defense #3,black,B03,1,1414,1557,26
+Alekhine Defense,Alekhine Defense #2,white,B03,1,1401,1354,39
+Alekhine Defense,Alekhine Defense #2,draw,B03,1,1849,1826,13
+Alekhine Defense,Alekhine Defense #2,black,B03,1,1350,1201,118
+Alekhine Defense,Alekhine Defense #3,black,B03,1,1414,1557,26
 Amar Opening,Amar Opening,black,E00,6,1342,1729,46
 Amar Opening,Amar Opening,white,E00,8,1668,1776,44
 Amazon Attack,Amazon Attack,draw,D00,1,1500,1017,8
@@ -70,15 +70,15 @@ Benko Gambit,Benko Gambit,white,A57,3,1876,1970,67
 Benko Gambit,Benko Gambit,draw,A57,2,1841,2095,121
 Benko Gambit,Benko Gambit,black,A57,3,1586,1743,53
 Benko Gambit,Benko Gambit: Zaitsev System,black,A58,1,2073,1890,32
-Benko Gambit Accepted ,Benko Gambit Accepted |  Fianchetto Variation,white,A58,2,2124,2109,78
-Benko Gambit Accepted ,Benko Gambit Accepted |  Fully Accepted Variation,black,A58,2,2226,2266,44
-Benko Gambit Accepted ,Benko Gambit Accepted |  Fully Accepted Variation,white,A58,1,1817,1856,117
-Benko Gambit Accepted ,Benko Gambit Accepted |  Modern Variation,white,A57,1,2095,1831,67
-Benko Gambit Accepted ,Benko Gambit Accepted |  Pawn Return Variation,white,A57,1,2376,2166,69
-Benko Gambit Accepted ,Benko Gambit Accepted |  Yugoslav |  without 7...Bxf1,black,A59,1,2052,2287,72
-Benko Gambit Declined ,Benko Gambit Declined |  Hjoerring Countergambit,black,A57,1,1917,1804,51
-Benko Gambit Declined ,Benko Gambit Declined |  Main Line,black,A57,1,1964,1813,38
-Benko Gambit Declined ,Benko Gambit Declined |  Quiet Line,white,A57,1,2331,2336,83
+Benko Gambit Accepted,Benko Gambit Accepted |  Fianchetto Variation,white,A58,2,2124,2109,78
+Benko Gambit Accepted,Benko Gambit Accepted |  Fully Accepted Variation,black,A58,2,2226,2266,44
+Benko Gambit Accepted,Benko Gambit Accepted |  Fully Accepted Variation,white,A58,1,1817,1856,117
+Benko Gambit Accepted,Benko Gambit Accepted |  Modern Variation,white,A57,1,2095,1831,67
+Benko Gambit Accepted,Benko Gambit Accepted |  Pawn Return Variation,white,A57,1,2376,2166,69
+Benko Gambit Accepted,Benko Gambit Accepted |  Yugoslav |  without 7...Bxf1,black,A59,1,2052,2287,72
+Benko Gambit Declined,Benko Gambit Declined |  Hjoerring Countergambit,black,A57,1,1917,1804,51
+Benko Gambit Declined,Benko Gambit Declined |  Main Line,black,A57,1,1964,1813,38
+Benko Gambit Declined,Benko Gambit Declined |  Quiet Line,white,A57,1,2331,2336,83
 Benoni Defense,Benoni Defense,black,A56,4,1858,1928,70
 Benoni Defense,Benoni Defense,white,A56,2,1747,1812,108
 Benoni Defense,Benoni Defense: Benoni Gambit Accepted,draw,A43,6,1593,1435,48
@@ -172,13 +172,13 @@ Blackmar-Diemer Gambit,Blackmar-Diemer Gambit: Zeller Defense,black,D00,3,1178,1
 Blackmar-Diemer Gambit,Blackmar-Diemer Gambit: Zeller Defense,white,D00,3,1340,1486,53
 Blackmar-Diemer Gambit,Blackmar-Diemer Gambit: von Popiel Gambit,white,D00,2,1889,1634,41
 Blackmar-Diemer Gambit,Blackmar-Diemer Gambit: von Popiel Gambit,black,D00,1,1987,2339,70
-Blackmar-Diemer Gambit ,Blackmar-Diemer Gambit #2,black,D00,2,1500,1821,66
-Blackmar-Diemer Gambit Declined ,Blackmar-Diemer Gambit Declined |  Brombacher Countergambit,black,D00,1,1935,2094,48
-Blackmar-Diemer Gambit Declined ,Blackmar-Diemer Gambit Declined |  Lamb Defense,black,D00,1,1461,1402,36
-Blackmar-Diemer Gambit Declined ,Blackmar-Diemer Gambit Declined |  Lamb Defense,white,D00,2,1576,1438,70
-Blackmar-Diemer Gambit Declined ,Blackmar-Diemer Gambit Declined |  Weinsbach Declination,white,D00,1,1500,1393,75
-Blumenfeld Countergambit ,Blumenfeld Countergambit #2,black,E10,5,1826,1968,69
-Blumenfeld Countergambit ,Blumenfeld Countergambit #2,white,E10,5,2061,1893,60
+Blackmar-Diemer Gambit,Blackmar-Diemer Gambit #2,black,D00,2,1500,1821,66
+Blackmar-Diemer Gambit Declined,Blackmar-Diemer Gambit Declined |  Brombacher Countergambit,black,D00,1,1935,2094,48
+Blackmar-Diemer Gambit Declined,Blackmar-Diemer Gambit Declined |  Lamb Defense,black,D00,1,1461,1402,36
+Blackmar-Diemer Gambit Declined,Blackmar-Diemer Gambit Declined |  Lamb Defense,white,D00,2,1576,1438,70
+Blackmar-Diemer Gambit Declined,Blackmar-Diemer Gambit Declined |  Weinsbach Declination,white,D00,1,1500,1393,75
+Blumenfeld Countergambit,Blumenfeld Countergambit #2,black,E10,5,1826,1968,69
+Blumenfeld Countergambit,Blumenfeld Countergambit #2,white,E10,5,2061,1893,60
 Blumenfeld Countergambit Accepted,Blumenfeld Countergambit Accepted,black,E10,1,2493,1914,54
 Blumenfeld Countergambit Accepted,Blumenfeld Countergambit Accepted,white,E10,3,2002,2191,41
 Bogo-Indian Defense,Bogo-Indian Defense: Exchange Variation,draw,E11,1,1635,1723,89
@@ -294,8 +294,8 @@ Caro-Kann Defense,Caro-Kann Defense: Two Knights Attack |  Mindeno Variation |  
 Caro-Kann Defense,Caro-Kann Defense: Two Knights Attack |  Mindeno Variation |  Retreat Line,white,B11,3,1983,1891,43
 Caro-Kann Defense,Caro-Kann Defense: Ulysses Gambit,black,B12,2,1603,1600,51
 Caro-Kann Defense,Caro-Kann Defense: von Hennig Gambit,white,B15,1,1911,1581,101
-Caro-Kann Defense ,Caro-Kann Defense #2,draw,B10,3,1275,1398,130
-Caro-Kann Defense ,Caro-Kann Defense #2,black,B12,1,1426,1929,54
+Caro-Kann Defense,Caro-Kann Defense #2,draw,B10,3,1275,1398,130
+Caro-Kann Defense,Caro-Kann Defense #2,black,B12,1,1426,1929,54
 Carr Defense,Carr Defense,draw,B00,1,1686,1098,128
 Carr Defense,Carr Defense,white,B00,4,1781,1386,42
 Catalan Opening,Catalan Opening,white,E01,2,1788,1794,56
@@ -320,8 +320,8 @@ Center Game,Center Game: Paulsen Attack Variation,white,C22,6,1872,1556,40
 Center Game,Center Game: Paulsen Attack Variation,black,C22,11,1575,1468,64
 Center Game,Center Game: Ross Gambit,black,C21,1,1484,1738,30
 Center Game,Center Game: von der Lasa Gambit,black,C21,1,1607,1500,43
-Center Game ,Center Game #2,black,C21,23,1346,1401,50
-Center Game ,Center Game #2,white,C21,37,1441,1322,52
+Center Game,Center Game #2,black,C21,23,1346,1401,50
+Center Game,Center Game #2,white,C21,37,1441,1322,52
 Center Game Accepted,Center Game Accepted,black,C21,1,1500,1637,48
 Center Game Accepted,Center Game Accepted,white,C21,1,1462,1631,93
 Clemenz Opening,Clemenz Opening,white,A00,4,1646,1644,48
@@ -330,8 +330,8 @@ Colle System,Colle System,white,D05,6,1630,1484,72
 Colle System,Colle System,black,D05,9,1496,1597,66
 Colle System,Colle System: Traditional Colle,white,D05,1,1784,2121,49
 Colle System,Colle System: Traditional Colle,black,D05,1,1976,2056,102
-Colle System ,Colle System #2,black,D05,6,1624,1573,51
-Colle System ,Colle System #2,white,D05,3,1419,1420,62
+Colle System,Colle System #2,black,D05,6,1624,1573,51
+Colle System,Colle System #2,white,D05,3,1419,1420,62
 Crab Opening,Crab Opening,black,A00,8,1267,1427,30
 Creepy Crawly Formation,Creepy Crawly Formation: Classical Defense,black,A00,3,1295,1430,63
 Creepy Crawly Formation,Creepy Crawly Formation: Classical Defense,white,A00,2,1298,1387,36
@@ -342,13 +342,13 @@ Danish Gambit,Danish Gambit,draw,C21,2,1746,1707,72
 Danish Gambit,Danish Gambit,black,C21,14,1548,1639,77
 Danish Gambit Accepted,Danish Gambit Accepted,white,C21,14,1618,1542,50
 Danish Gambit Accepted,Danish Gambit Accepted,black,C21,4,1546,1647,50
-Danish Gambit Accepted ,Danish Gambit Accepted |  Classical Defense,white,C21,8,1654,1471,52
-Danish Gambit Accepted ,Danish Gambit Accepted |  Classical Defense,black,C21,2,1384,1455,56
-Danish Gambit Accepted ,Danish Gambit Accepted |  Copenhagen Defense,black,C21,4,1493,1753,52
-Danish Gambit Accepted ,Danish Gambit Accepted |  Copenhagen Defense,white,C21,7,1579,1578,69
-Danish Gambit Accepted ,Danish Gambit Accepted |  Schlechter Defense,white,C21,1,2225,2096,21
-Danish Gambit Declined ,Danish Gambit Declined |  Sorensen Defense,white,C21,1,1993,1573,51
-Danish Gambit Declined ,Danish Gambit Declined |  Sorensen Defense,black,C21,3,1944,1900,58
+Danish Gambit Accepted,Danish Gambit Accepted |  Classical Defense,white,C21,8,1654,1471,52
+Danish Gambit Accepted,Danish Gambit Accepted |  Classical Defense,black,C21,2,1384,1455,56
+Danish Gambit Accepted,Danish Gambit Accepted |  Copenhagen Defense,black,C21,4,1493,1753,52
+Danish Gambit Accepted,Danish Gambit Accepted |  Copenhagen Defense,white,C21,7,1579,1578,69
+Danish Gambit Accepted,Danish Gambit Accepted |  Schlechter Defense,white,C21,1,2225,2096,21
+Danish Gambit Declined,Danish Gambit Declined |  Sorensen Defense,white,C21,1,1993,1573,51
+Danish Gambit Declined,Danish Gambit Declined |  Sorensen Defense,black,C21,3,1944,1900,58
 Doery Defense,Doery Defense,black,A46,1,2201,2173,130
 Duras Gambit,Duras Gambit,white,B00,6,1505,1492,58
 Duras Gambit,Duras Gambit,black,B00,5,1448,1545,37
@@ -398,8 +398,8 @@ Elephant Gambit,Elephant Gambit: Paulsen Countergambit,black,C40,7,1604,1695,50
 English Defense,English Defense,draw,A40,1,2077,2090,102
 English Defense,English Defense,white,A40,9,1607,1529,67
 English Defense,English Defense,black,A40,8,1699,1940,72
-English Defense ,English Defense #2,black,A40,25,1547,1549,56
-English Defense ,English Defense #2,white,A40,25,1588,1475,57
+English Defense,English Defense #2,black,A40,25,1547,1549,56
+English Defense,English Defense #2,white,A40,25,1588,1475,57
 English Opening,English Opening,black,A10,13,1537,1574,70
 English Opening,English Opening,white,A10,11,1689,1536,61
 English Opening,English Opening: Achilles-Omega Gambit,black,A10,2,1094,1212,46
@@ -548,11 +548,11 @@ Englund Gambit Complex,Englund Gambit Complex: Soller Gambit,white,A40,5,1594,13
 Englund Gambit Complex,Englund Gambit Complex: Soller Gambit Deferred,white,A40,1,1500,1281,43
 Englund Gambit Complex Declined,Englund Gambit Complex Declined,white,A40,2,1610,1647,58
 Englund Gambit Complex Declined,Englund Gambit Complex Declined,black,A40,2,1639,1836,49
-Englund Gambit Declined ,Englund Gambit Declined |  Reversed Alekhine,white,A40,3,1411,1379,52
-Englund Gambit Declined ,Englund Gambit Declined |  Reversed Alekhine,black,A40,2,1336,1136,75
-Englund Gambit Declined ,Englund Gambit Declined |  Reversed French,white,A40,14,1400,1368,56
-Englund Gambit Declined ,Englund Gambit Declined |  Reversed French,black,A40,21,1454,1534,78
-Englund Gambit Declined ,Englund Gambit Declined |  Reversed Krebs,black,A40,2,1238,1310,40
+Englund Gambit Declined,Englund Gambit Declined |  Reversed Alekhine,white,A40,3,1411,1379,52
+Englund Gambit Declined,Englund Gambit Declined |  Reversed Alekhine,black,A40,2,1336,1136,75
+Englund Gambit Declined,Englund Gambit Declined |  Reversed French,white,A40,14,1400,1368,56
+Englund Gambit Declined,Englund Gambit Declined |  Reversed French,black,A40,21,1454,1534,78
+Englund Gambit Declined,Englund Gambit Declined |  Reversed Krebs,black,A40,2,1238,1310,40
 Four Knights Game,Four Knights Game,draw,C46,2,1576,1474,114
 Four Knights Game,Four Knights Game,white,C46,16,1484,1416,72
 Four Knights Game,Four Knights Game,black,C46,18,1377,1603,58
@@ -775,9 +775,9 @@ French Defense,French Defense: Winawer Variation |  Winckelmann-Riemer Gambit,wh
 French Defense,French Defense: Winawer Variation |  Winckelmann-Riemer Gambit,black,C15,2,1516,1342,15
 French Defense,French Defense: Wing Gambit,white,C00,3,1732,1775,40
 French Defense,French Defense: Wing Gambit,black,C00,1,1610,1856,102
-French Defense ,French Defense #2,draw,C00,5,1219,1096,61
-French Defense ,French Defense #2,black,C00,53,1477,1559,57
-French Defense ,French Defense #2,white,C00,48,1477,1406,54
+French Defense,French Defense #2,draw,C00,5,1219,1096,61
+French Defense,French Defense #2,black,C00,53,1477,1559,57
+French Defense,French Defense #2,white,C00,48,1477,1406,54
 Gedult's Opening,Gedult's Opening,black,A00,11,1511,1844,62
 Gedult's Opening,Gedult's Opening,white,A00,8,1644,1534,54
 Gedult's Opening,Gedult's Opening,draw,A00,2,1598,1550,38
@@ -826,8 +826,8 @@ Gruenfeld Defense,Gruenfeld Defense: Three Knights Variation |  Petrosian System
 Guatemala Defense,Guatemala Defense,white,B00,5,1614,1372,79
 Gunderam Defense,Gunderam Defense,white,C40,8,1491,1386,69
 Gunderam Defense,Gunderam Defense,black,C40,3,1420,1414,79
-Hippopotamus Defense ,Hippopotamus Defense #2,black,B00,1,1047,1492,27
-Hippopotamus Defense ,Hippopotamus Defense #2,white,B00,5,1523,1338,28
+Hippopotamus Defense,Hippopotamus Defense #2,black,B00,1,1047,1492,27
+Hippopotamus Defense,Hippopotamus Defense #2,white,B00,5,1523,1338,28
 Horwitz Defense,Horwitz Defense,white,A40,110,1625,1510,54
 Horwitz Defense,Horwitz Defense,draw,A40,5,1541,1526,74
 Horwitz Defense,Horwitz Defense,black,A40,94,1521,1586,63
@@ -1041,68 +1041,68 @@ King's Gambit Accepted,King's Gambit Accepted: Allgaier |  Schlechter Defense,bl
 King's Gambit Accepted,King's Gambit Accepted: King Knight's Gambit,black,C37,2,1529,1646,117
 King's Gambit Accepted,King's Gambit Accepted: Modern Defense #2,black,C36,3,1648,1617,68
 King's Gambit Accepted,King's Gambit Accepted: Modern Defense #2,white,C36,3,1710,1598,55
-King's Gambit Accepted ,King's Gambit Accepted |  Abbazia Defense,black,C36,1,1740,1496,81
-King's Gambit Accepted ,King's Gambit Accepted |  Becker Defense,draw,C34,1,1788,1500,43
-King's Gambit Accepted ,King's Gambit Accepted |  Becker Defense,white,C34,1,1670,1577,9
-King's Gambit Accepted ,King's Gambit Accepted |  Bishop's Gambit,white,C33,7,1760,1688,61
-King's Gambit Accepted ,King's Gambit Accepted |  Bishop's Gambit,black,C33,4,1762,1938,55
-King's Gambit Accepted ,King's Gambit Accepted |  Bishop's Gambit |  Bogoljubov Variation,white,C33,1,1870,1650,41
-King's Gambit Accepted ,King's Gambit Accepted |  Bishop's Gambit |  Lopez Defense,white,C33,2,1552,1528,69
-King's Gambit Accepted ,King's Gambit Accepted |  Bishop's Gambit |  Maurian Defense,black,C33,2,1604,1839,107
-King's Gambit Accepted ,King's Gambit Accepted |  Bishop's Gambit |  Maurian Defense,white,C33,1,1666,1526,43
-King's Gambit Accepted ,King's Gambit Accepted |  Cunningham Defense,black,C35,2,1728,1832,25
-King's Gambit Accepted ,King's Gambit Accepted |  Cunningham Defense,white,C35,2,1843,1627,63
-King's Gambit Accepted ,King's Gambit Accepted |  Dodo Variation,black,C30,1,1312,1814,68
-King's Gambit Accepted ,King's Gambit Accepted |  Fischer Defense,white,C34,6,1557,1416,59
-King's Gambit Accepted ,King's Gambit Accepted |  Fischer Defense,black,C34,6,1460,1573,60
-King's Gambit Accepted ,King's Gambit Accepted |  Ghulam-Kassim Gambit,white,C37,1,1933,1696,27
-King's Gambit Accepted ,King's Gambit Accepted |  Greco Gambit,black,C38,1,1940,1808,28
-King's Gambit Accepted ,King's Gambit Accepted |  Hanstein Gambit,white,C38,2,1557,1614,73
-King's Gambit Accepted ,King's Gambit Accepted |  Kieseritzky Gambit |  Berlin Defense,white,C39,1,1807,1689,105
-King's Gambit Accepted ,King's Gambit Accepted |  Kieseritzky Gambit |  Kolisch Defense,white,C39,1,1820,1782,117
-King's Gambit Accepted ,King's Gambit Accepted |  King's Knight Gambit,black,C34,3,1636,1498,45
-King's Gambit Accepted ,King's Gambit Accepted |  King's Knight Gambit,white,C37,2,1668,1398,27
-King's Gambit Accepted ,King's Gambit Accepted |  King's Knight Gambit,black,C37,1,1860,1712,10
-King's Gambit Accepted ,King's Gambit Accepted |  King's Knight Gambit,white,C34,8,1629,1501,52
-King's Gambit Accepted ,King's Gambit Accepted |  MacLeod Defense,black,C34,7,1548,1495,50
-King's Gambit Accepted ,King's Gambit Accepted |  MacLeod Defense,white,C34,19,1735,1532,42
-King's Gambit Accepted ,King's Gambit Accepted |  Modern Defense,white,C36,3,1727,1671,39
-King's Gambit Accepted ,King's Gambit Accepted |  Muzio Gambit |  Sarratt Defense,white,C37,1,1856,1895,45
-King's Gambit Accepted ,King's Gambit Accepted |  Muzio Gambit |  Sarratt Defense,black,C37,1,1788,1187,50
-King's Gambit Accepted ,King's Gambit Accepted |  Polerio Gambit,white,C33,5,1569,1520,64
-King's Gambit Accepted ,King's Gambit Accepted |  Polerio Gambit,black,C33,3,1714,1792,64
-King's Gambit Accepted ,King's Gambit Accepted |  Rosentreter Gambit,white,C37,1,1447,1413,95
-King's Gambit Accepted ,King's Gambit Accepted |  Rosentreter-Testa Gambit,white,C37,1,2167,1777,31
-King's Gambit Accepted ,King's Gambit Accepted |  Salvio Gambit,white,C37,1,1895,1825,31
-King's Gambit Accepted ,King's Gambit Accepted |  Schallopp Defense,draw,C34,1,1627,1816,56
-King's Gambit Accepted ,King's Gambit Accepted |  Schallopp Defense,black,C34,8,1560,1553,41
-King's Gambit Accepted ,King's Gambit Accepted |  Schallopp Defense,white,C34,15,1702,1555,58
+King's Gambit Accepted,King's Gambit Accepted |  Abbazia Defense,black,C36,1,1740,1496,81
+King's Gambit Accepted,King's Gambit Accepted |  Becker Defense,draw,C34,1,1788,1500,43
+King's Gambit Accepted,King's Gambit Accepted |  Becker Defense,white,C34,1,1670,1577,9
+King's Gambit Accepted,King's Gambit Accepted |  Bishop's Gambit,white,C33,7,1760,1688,61
+King's Gambit Accepted,King's Gambit Accepted |  Bishop's Gambit,black,C33,4,1762,1938,55
+King's Gambit Accepted,King's Gambit Accepted |  Bishop's Gambit |  Bogoljubov Variation,white,C33,1,1870,1650,41
+King's Gambit Accepted,King's Gambit Accepted |  Bishop's Gambit |  Lopez Defense,white,C33,2,1552,1528,69
+King's Gambit Accepted,King's Gambit Accepted |  Bishop's Gambit |  Maurian Defense,black,C33,2,1604,1839,107
+King's Gambit Accepted,King's Gambit Accepted |  Bishop's Gambit |  Maurian Defense,white,C33,1,1666,1526,43
+King's Gambit Accepted,King's Gambit Accepted |  Cunningham Defense,black,C35,2,1728,1832,25
+King's Gambit Accepted,King's Gambit Accepted |  Cunningham Defense,white,C35,2,1843,1627,63
+King's Gambit Accepted,King's Gambit Accepted |  Dodo Variation,black,C30,1,1312,1814,68
+King's Gambit Accepted,King's Gambit Accepted |  Fischer Defense,white,C34,6,1557,1416,59
+King's Gambit Accepted,King's Gambit Accepted |  Fischer Defense,black,C34,6,1460,1573,60
+King's Gambit Accepted,King's Gambit Accepted |  Ghulam-Kassim Gambit,white,C37,1,1933,1696,27
+King's Gambit Accepted,King's Gambit Accepted |  Greco Gambit,black,C38,1,1940,1808,28
+King's Gambit Accepted,King's Gambit Accepted |  Hanstein Gambit,white,C38,2,1557,1614,73
+King's Gambit Accepted,King's Gambit Accepted |  Kieseritzky Gambit |  Berlin Defense,white,C39,1,1807,1689,105
+King's Gambit Accepted,King's Gambit Accepted |  Kieseritzky Gambit |  Kolisch Defense,white,C39,1,1820,1782,117
+King's Gambit Accepted,King's Gambit Accepted |  King's Knight Gambit,black,C34,3,1636,1498,45
+King's Gambit Accepted,King's Gambit Accepted |  King's Knight Gambit,white,C37,2,1668,1398,27
+King's Gambit Accepted,King's Gambit Accepted |  King's Knight Gambit,black,C37,1,1860,1712,10
+King's Gambit Accepted,King's Gambit Accepted |  King's Knight Gambit,white,C34,8,1629,1501,52
+King's Gambit Accepted,King's Gambit Accepted |  MacLeod Defense,black,C34,7,1548,1495,50
+King's Gambit Accepted,King's Gambit Accepted |  MacLeod Defense,white,C34,19,1735,1532,42
+King's Gambit Accepted,King's Gambit Accepted |  Modern Defense,white,C36,3,1727,1671,39
+King's Gambit Accepted,King's Gambit Accepted |  Muzio Gambit |  Sarratt Defense,white,C37,1,1856,1895,45
+King's Gambit Accepted,King's Gambit Accepted |  Muzio Gambit |  Sarratt Defense,black,C37,1,1788,1187,50
+King's Gambit Accepted,King's Gambit Accepted |  Polerio Gambit,white,C33,5,1569,1520,64
+King's Gambit Accepted,King's Gambit Accepted |  Polerio Gambit,black,C33,3,1714,1792,64
+King's Gambit Accepted,King's Gambit Accepted |  Rosentreter Gambit,white,C37,1,1447,1413,95
+King's Gambit Accepted,King's Gambit Accepted |  Rosentreter-Testa Gambit,white,C37,1,2167,1777,31
+King's Gambit Accepted,King's Gambit Accepted |  Salvio Gambit,white,C37,1,1895,1825,31
+King's Gambit Accepted,King's Gambit Accepted |  Schallopp Defense,draw,C34,1,1627,1816,56
+King's Gambit Accepted,King's Gambit Accepted |  Schallopp Defense,black,C34,8,1560,1553,41
+King's Gambit Accepted,King's Gambit Accepted |  Schallopp Defense,white,C34,15,1702,1555,58
 King's Gambit Declined,King's Gambit Declined: Classical |  Soldatenkov Variation,white,C30,1,1833,1752,73
 King's Gambit Declined,King's Gambit Declined: Falkbeer |  Milner-Barry Variation,black,C31,1,1416,2361,42
 King's Gambit Declined,King's Gambit Declined: Keene's Defense #2,white,C30,6,1448,1451,39
-King's Gambit Declined ,King's Gambit Declined |  Classical Variation,black,C30,4,1925,2037,109
-King's Gambit Declined ,King's Gambit Declined |  Classical Variation,white,C30,2,1720,1560,132
-King's Gambit Declined ,King's Gambit Declined |  Keene Defense,draw,C30,1,1373,1530,14
-King's Gambit Declined ,King's Gambit Declined |  Keene Defense,black,C30,1,1617,1637,41
-King's Gambit Declined ,King's Gambit Declined |  Mafia Defense,white,C30,1,1755,1903,47
-King's Gambit Declined ,King's Gambit Declined |  Mafia Defense,black,C30,1,1861,1757,36
-King's Gambit Declined ,King's Gambit Declined |  Miles Defense,black,C30,1,1708,2016,34
-King's Gambit Declined ,King's Gambit Declined |  Miles Defense,white,C30,1,2027,1976,45
-King's Gambit Declined ,King's Gambit Declined |  Norwalde Variation,white,C30,3,1551,1487,43
-King's Gambit Declined ,King's Gambit Declined |  Petrov's Defense,white,C30,5,1629,1554,55
-King's Gambit Declined ,King's Gambit Declined |  Queen's Knight Defense,black,C30,11,1477,1469,47
-King's Gambit Declined ,King's Gambit Declined |  Queen's Knight Defense,draw,C30,2,1657,1491,64
-King's Gambit Declined ,King's Gambit Declined |  Queen's Knight Defense,white,C30,10,1707,1556,61
-King's Gambit ,King's Gambit |  Falkbeer Countergambit Accepted,black,C31,1,1414,1787,44
-King's Gambit ,King's Gambit |  Falkbeer Countergambit Accepted,white,C31,3,1608,1651,61
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Hinrichsen Gambit,draw,C31,1,1891,1854,56
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Hinrichsen Gambit,black,C31,1,1847,1793,156
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Miles Gambit,black,C31,1,1439,1578,60
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Modern Transfer,draw,C32,1,1500,2305,66
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Nimzowitsch-Marshall Countergambit,black,C31,1,2108,2270,16
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Nimzowitsch-Marshall Countergambit,white,C31,1,1715,1569,71
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Staunton Line,black,C31,1,1531,1807,68
-King's Gambit ,King's Gambit |  Falkbeer Countergambit |  Staunton Line,white,C31,1,1647,1664,99
+King's Gambit Declined,King's Gambit Declined |  Classical Variation,black,C30,4,1925,2037,109
+King's Gambit Declined,King's Gambit Declined |  Classical Variation,white,C30,2,1720,1560,132
+King's Gambit Declined,King's Gambit Declined |  Keene Defense,draw,C30,1,1373,1530,14
+King's Gambit Declined,King's Gambit Declined |  Keene Defense,black,C30,1,1617,1637,41
+King's Gambit Declined,King's Gambit Declined |  Mafia Defense,white,C30,1,1755,1903,47
+King's Gambit Declined,King's Gambit Declined |  Mafia Defense,black,C30,1,1861,1757,36
+King's Gambit Declined,King's Gambit Declined |  Miles Defense,black,C30,1,1708,2016,34
+King's Gambit Declined,King's Gambit Declined |  Miles Defense,white,C30,1,2027,1976,45
+King's Gambit Declined,King's Gambit Declined |  Norwalde Variation,white,C30,3,1551,1487,43
+King's Gambit Declined,King's Gambit Declined |  Petrov's Defense,white,C30,5,1629,1554,55
+King's Gambit Declined,King's Gambit Declined |  Queen's Knight Defense,black,C30,11,1477,1469,47
+King's Gambit Declined,King's Gambit Declined |  Queen's Knight Defense,draw,C30,2,1657,1491,64
+King's Gambit Declined,King's Gambit Declined |  Queen's Knight Defense,white,C30,10,1707,1556,61
+King's Gambit,King's Gambit |  Falkbeer Countergambit Accepted,black,C31,1,1414,1787,44
+King's Gambit,King's Gambit |  Falkbeer Countergambit Accepted,white,C31,3,1608,1651,61
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Hinrichsen Gambit,draw,C31,1,1891,1854,56
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Hinrichsen Gambit,black,C31,1,1847,1793,156
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Miles Gambit,black,C31,1,1439,1578,60
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Modern Transfer,draw,C32,1,1500,2305,66
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Nimzowitsch-Marshall Countergambit,black,C31,1,2108,2270,16
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Nimzowitsch-Marshall Countergambit,white,C31,1,1715,1569,71
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Staunton Line,black,C31,1,1531,1807,68
+King's Gambit,King's Gambit |  Falkbeer Countergambit |  Staunton Line,white,C31,1,1647,1664,99
 King's Indian Attack,King's Indian Attack,draw,A08,3,1941,1727,95
 King's Indian Attack,King's Indian Attack,black,A07,8,1635,1600,77
 King's Indian Attack,King's Indian Attack,white,A08,15,1874,1755,53
@@ -1193,9 +1193,9 @@ King's Indian Defense,King's Indian Defense: Steiner Attack,white,E76,1,1810,172
 King's Indian Defense,King's Indian Defense: Steiner Attack,draw,E76,1,1794,1714,71
 King's Indian Defense,King's Indian Defense: Zinnowitz Variation,white,E90,2,1857,1875,40
 King's Indian Defense,King's Indian Defense: Zinnowitz Variation,black,E90,5,1686,1871,65
-King's Indian ,King's Indian |  Fianchetto |  Classical Variation |  8.e4,white,E68,1,2207,2206,59
-King's Indian ,King's Indian |  Fianchetto |  Classical Variation |  8.e4,black,E68,1,2017,2008,92
-King's Indian ,King's Indian |  Orthodox |  7...Nbd7 8.Re1,white,E95,1,2196,1869,65
+King's Indian,King's Indian |  Fianchetto |  Classical Variation |  8.e4,white,E68,1,2207,2206,59
+King's Indian,King's Indian |  Fianchetto |  Classical Variation |  8.e4,black,E68,1,2017,2008,92
+King's Indian,King's Indian |  Orthodox |  7...Nbd7 8.Re1,white,E95,1,2196,1869,65
 King's Knight Opening,King's Knight Opening,white,C40,60,1433,1334,43
 King's Knight Opening,King's Knight Opening,black,C40,26,1366,1355,42
 King's Knight Opening,King's Knight Opening,draw,C40,1,1563,1396,3
@@ -1272,8 +1272,8 @@ Latvian Gambit,Latvian Gambit: Mlotkowski Variation,black,C40,1,1657,1389,32
 Latvian Gambit,Latvian Gambit: Mlotkowski Variation,white,C40,1,1492,1456,27
 Latvian Gambit Accepted,Latvian Gambit Accepted,white,C40,5,1571,1423,38
 Latvian Gambit Accepted,Latvian Gambit Accepted,black,C40,4,1366,1487,52
-Latvian Gambit Accepted ,Latvian Gambit Accepted |  Bilguer Variation,black,C40,2,2148,2070,88
-Latvian Gambit Accepted ,Latvian Gambit Accepted |  Main Line,white,C40,2,2352,2366,74
+Latvian Gambit Accepted,Latvian Gambit Accepted |  Bilguer Variation,black,C40,2,2148,2070,88
+Latvian Gambit Accepted,Latvian Gambit Accepted |  Main Line,white,C40,2,2352,2366,74
 Lemming Defense,Lemming Defense,white,B00,3,1590,1320,49
 Lion Defense,Lion Defense: Anti-Philidor |  Lion's Cave,white,B07,1,1759,1265,53
 Lion Defense,Lion Defense: Anti-Philidor |  Lion's Cave,black,B07,1,1859,1728,62
@@ -1379,9 +1379,9 @@ Nimzo-Indian Defense,Nimzo-Indian Defense: Saemisch Variation |  Accelerated,bla
 Nimzo-Indian Defense,Nimzo-Indian Defense: Three Knights Variation,black,E21,1,2000,1917,78
 Nimzo-Indian Defense,Nimzo-Indian Defense: Three Knights Variation,white,E21,4,1891,1587,53
 Nimzo-Indian Defense,Nimzo-Indian Defense: Three Knights Variation |  Duchamp Variation,white,E21,2,1947,2128,92
-Nimzo-Indian Defense ,Nimzo-Indian Defense #2,white,E20,10,1718,1667,70
-Nimzo-Indian Defense ,Nimzo-Indian Defense #2,draw,E20,1,2044,2022,66
-Nimzo-Indian Defense ,Nimzo-Indian Defense #2,black,E20,4,1624,1452,42
+Nimzo-Indian Defense,Nimzo-Indian Defense #2,white,E20,10,1718,1667,70
+Nimzo-Indian Defense,Nimzo-Indian Defense #2,draw,E20,1,2044,2022,66
+Nimzo-Indian Defense,Nimzo-Indian Defense #2,black,E20,4,1624,1452,42
 Nimzo-Larsen Attack,Nimzo-Larsen Attack,draw,A01,3,1640,1367,31
 Nimzo-Larsen Attack,Nimzo-Larsen Attack,black,A01,8,1234,1543,53
 Nimzo-Larsen Attack,Nimzo-Larsen Attack,white,A01,18,1679,1495,53
@@ -1445,9 +1445,9 @@ Nimzowitsch Defense,Nimzowitsch Defense: Scandinavian Variation |  Exchange Vari
 Nimzowitsch Defense,Nimzowitsch Defense: Williams Variation,black,B00,6,1529,1488,69
 Nimzowitsch Defense,Nimzowitsch Defense: Williams Variation,white,B00,5,1515,1635,47
 Nimzowitsch Defense,Nimzowitsch Defense: Williams Variation,draw,B00,1,1291,1166,95
-Nimzowitsch Defense ,Nimzowitsch Defense |  Declined Variation,black,B00,10,1527,1512,71
-Nimzowitsch Defense ,Nimzowitsch Defense |  Declined Variation,draw,B00,2,1576,1439,74
-Nimzowitsch Defense ,Nimzowitsch Defense |  Declined Variation,white,B00,12,1736,1419,59
+Nimzowitsch Defense,Nimzowitsch Defense |  Declined Variation,black,B00,10,1527,1512,71
+Nimzowitsch Defense,Nimzowitsch Defense |  Declined Variation,draw,B00,2,1576,1439,74
+Nimzowitsch Defense,Nimzowitsch Defense |  Declined Variation,white,B00,12,1736,1419,59
 Nimzowitsch-Larsen Attack,Nimzowitsch-Larsen Attack,white,A06,11,1547,1521,58
 Nimzowitsch-Larsen Attack,Nimzowitsch-Larsen Attack,black,A06,12,1535,1630,62
 Old Benoni Defense,Old Benoni Defense,draw,A43,1,1736,1893,139
@@ -1455,8 +1455,8 @@ Old Benoni Defense,Old Benoni Defense,white,A43,13,1656,1613,62
 Old Benoni Defense,Old Benoni Defense,black,A44,1,1905,2026,42
 Old Benoni Defense,Old Benoni Defense,black,A43,17,1546,1692,84
 Old Benoni Defense,Old Benoni Defense,white,A44,3,1636,1495,55
-Old Benoni Defense ,Old Benoni Defense #2,white,A43,3,1459,1363,32
-Old Benoni Defense ,Old Benoni Defense #2,black,A43,1,1716,1768,56
+Old Benoni Defense,Old Benoni Defense #2,white,A43,3,1459,1363,32
+Old Benoni Defense,Old Benoni Defense #2,black,A43,1,1716,1768,56
 Old Indian,Old Indian: Czech Variation,black,A53,1,1516,1586,50
 Old Indian,Old Indian: Czech Variation |  with Nc3,white,A53,1,1728,1576,87
 Old Indian,Old Indian: Czech Variation |  with Nc3,black,A53,2,1504,1580,41
@@ -1481,15 +1481,15 @@ Petrov,Petrov: Modern Attack,white,C43,3,1697,1484,48
 Petrov's Defense,Petrov's Defense,draw,C42,3,1201,1191,84
 Petrov's Defense,Petrov's Defense,white,C42,15,1480,1412,55
 Petrov's Defense,Petrov's Defense,black,C42,24,1324,1386,53
-Petrov's Defense ,Petrov's Defense #2,draw,C42,1,1689,1746,108
-Petrov's Defense ,Petrov's Defense #2,black,C42,17,1551,1623,52
-Petrov's Defense ,Petrov's Defense #2,white,C42,18,1593,1505,64
-Petrov's Defense ,Petrov's Defense #3,black,C42,1,1394,1531,34
-Petrov's Defense ,Petrov's Defense #3,white,C42,1,1142,1138,48
-Petrov's Defense ,Petrov's Defense #4,white,C42,1,1703,1500,79
-Petrov's Defense ,Petrov's Defense #4,draw,C42,1,1817,1688,115
-Petrov's Defense ,Petrov's Defense #4,black,C42,2,1987,1564,29
-Petrov's Defense ,Petrov's Defense #5,black,C42,1,1630,1605,116
+Petrov's Defense,Petrov's Defense #2,draw,C42,1,1689,1746,108
+Petrov's Defense,Petrov's Defense #2,black,C42,17,1551,1623,52
+Petrov's Defense,Petrov's Defense #2,white,C42,18,1593,1505,64
+Petrov's Defense,Petrov's Defense #3,black,C42,1,1394,1531,34
+Petrov's Defense,Petrov's Defense #3,white,C42,1,1142,1138,48
+Petrov's Defense,Petrov's Defense #4,white,C42,1,1703,1500,79
+Petrov's Defense,Petrov's Defense #4,draw,C42,1,1817,1688,115
+Petrov's Defense,Petrov's Defense #4,black,C42,2,1987,1564,29
+Petrov's Defense,Petrov's Defense #5,black,C42,1,1630,1605,116
 Philidor Defense,Philidor Defense,black,C41,42,1458,1508,64
 Philidor Defense,Philidor Defense,draw,C41,9,1537,1421,96
 Philidor Defense,Philidor Defense,white,C41,84,1566,1427,63
@@ -1527,15 +1527,15 @@ Philidor Defense,Philidor Defense: Philidor Countergambit,black,C41,1,1094,1334,
 Philidor Defense,Philidor Defense: Philidor Countergambit,white,C41,4,1553,1319,70
 Philidor Defense,Philidor Defense: Philidor Countergambit |  Zukertort Variation,black,C41,1,1462,1610,22
 Philidor Defense,Philidor Defense: Steinitz Variation,white,C41,3,1725,1578,68
-Philidor Defense ,Philidor Defense #2,black,C41,96,1455,1490,73
-Philidor Defense ,Philidor Defense #2,white,C41,89,1493,1425,68
-Philidor Defense ,Philidor Defense #2,draw,C41,8,1430,1468,64
-Philidor Defense ,Philidor Defense #3,draw,C41,4,1462,1500,79
-Philidor Defense ,Philidor Defense #3,black,C41,67,1450,1506,57
-Philidor Defense ,Philidor Defense #3,white,C41,127,1562,1466,53
-Philidor Defense ,Philidor Defense #4,draw,C41,2,1702,1678,106
-Philidor Defense ,Philidor Defense #4,black,C41,12,1480,1717,81
-Philidor Defense ,Philidor Defense #4,white,C41,14,1625,1625,73
+Philidor Defense,Philidor Defense #2,black,C41,96,1455,1490,73
+Philidor Defense,Philidor Defense #2,white,C41,89,1493,1425,68
+Philidor Defense,Philidor Defense #2,draw,C41,8,1430,1468,64
+Philidor Defense,Philidor Defense #3,draw,C41,4,1462,1500,79
+Philidor Defense,Philidor Defense #3,black,C41,67,1450,1506,57
+Philidor Defense,Philidor Defense #3,white,C41,127,1562,1466,53
+Philidor Defense,Philidor Defense #4,draw,C41,2,1702,1678,106
+Philidor Defense,Philidor Defense #4,black,C41,12,1480,1717,81
+Philidor Defense,Philidor Defense #4,white,C41,14,1625,1625,73
 Pirc Defense,Pirc Defense,black,B07,12,1627,1709,58
 Pirc Defense,Pirc Defense,white,B07,5,1589,1509,79
 Pirc Defense,Pirc Defense,draw,B07,2,1824,1853,72
@@ -1565,17 +1565,17 @@ Pirc Defense,Pirc Defense: Classical Variation |  Quiet System |  Czech Defense,
 Pirc Defense,Pirc Defense: Classical Variation |  Schlechter Variation,black,B08,2,1626,1697,53
 Pirc Defense,Pirc Defense: Classical Variation |  Schlechter Variation,white,B08,4,1831,1773,64
 Pirc Defense,Pirc Defense: Kholmov System,black,B07,2,1329,1584,58
-Pirc Defense ,Pirc Defense #2,white,B07,13,1657,1476,54
-Pirc Defense ,Pirc Defense #2,black,B07,10,1547,1646,54
-Pirc Defense ,Pirc Defense #3,white,B07,11,1798,1809,58
-Pirc Defense ,Pirc Defense #3,draw,B07,1,1509,1587,62
-Pirc Defense ,Pirc Defense #3,black,B07,8,1758,1987,62
-Pirc Defense ,Pirc Defense #4,black,B07,36,1515,1590,57
-Pirc Defense ,Pirc Defense #4,white,B07,63,1534,1443,55
-Pirc Defense ,Pirc Defense #4,draw,B07,8,1592,1520,71
-Pirc Defense ,Pirc Defense #5,draw,B07,1,1688,1699,123
-Pirc Defense ,Pirc Defense #5,black,B07,10,1539,1535,60
-Pirc Defense ,Pirc Defense #5,white,B07,32,1705,1526,55
+Pirc Defense,Pirc Defense #2,white,B07,13,1657,1476,54
+Pirc Defense,Pirc Defense #2,black,B07,10,1547,1646,54
+Pirc Defense,Pirc Defense #3,white,B07,11,1798,1809,58
+Pirc Defense,Pirc Defense #3,draw,B07,1,1509,1587,62
+Pirc Defense,Pirc Defense #3,black,B07,8,1758,1987,62
+Pirc Defense,Pirc Defense #4,black,B07,36,1515,1590,57
+Pirc Defense,Pirc Defense #4,white,B07,63,1534,1443,55
+Pirc Defense,Pirc Defense #4,draw,B07,8,1592,1520,71
+Pirc Defense,Pirc Defense #5,draw,B07,1,1688,1699,123
+Pirc Defense,Pirc Defense #5,black,B07,10,1539,1535,60
+Pirc Defense,Pirc Defense #5,white,B07,32,1705,1526,55
 Polish Defense,Polish Defense,white,A40,12,1638,1492,66
 Polish Defense,Polish Defense,black,A40,2,1648,1632,28
 Polish Opening,Polish Opening,draw,A00,3,1657,1617,55
@@ -1881,12 +1881,12 @@ Queen's Pawn Game,Queen's Pawn Game: Zukertort Variation,draw,D02,7,1729,1809,84
 Queen's Pawn Game,Queen's Pawn Game: Zukertort Variation,white,D02,63,1681,1573,59
 Queen's Pawn Game,Queen's Pawn Game: Zurich Gambit,white,D00,1,1687,1218,39
 Queen's Pawn Game,Queen's Pawn Game: Zurich Gambit,black,D00,1,1279,1207,44
-Queen's Pawn Game ,Queen's Pawn Game #2,white,D00,53,1500,1446,58
-Queen's Pawn Game ,Queen's Pawn Game #2,black,D00,58,1370,1524,69
-Queen's Pawn Game ,Queen's Pawn Game #2,draw,D00,7,1404,1396,98
-Queen's Pawn Game ,Queen's Pawn Game #3,white,D00,20,1489,1386,71
-Queen's Pawn Game ,Queen's Pawn Game #3,draw,D00,5,1554,1666,127
-Queen's Pawn Game ,Queen's Pawn Game #3,black,D00,31,1457,1623,78
+Queen's Pawn Game,Queen's Pawn Game #2,white,D00,53,1500,1446,58
+Queen's Pawn Game,Queen's Pawn Game #2,black,D00,58,1370,1524,69
+Queen's Pawn Game,Queen's Pawn Game #2,draw,D00,7,1404,1396,98
+Queen's Pawn Game,Queen's Pawn Game #3,white,D00,20,1489,1386,71
+Queen's Pawn Game,Queen's Pawn Game #3,draw,D00,5,1554,1666,127
+Queen's Pawn Game,Queen's Pawn Game #3,black,D00,31,1457,1623,78
 Queen's Pawn Opening,Queen's Pawn Opening: Veresov Attack |  Irish Gambit,white,D00,2,2131,1431,63
 Queen's Pawn Opening,Queen's Pawn Opening: Veresov |  Richter Attack,black,D00,5,1317,1508,60
 Queen's Pawn Opening,Queen's Pawn Opening: Veresov |  Richter Attack,white,D00,7,1404,1446,57
@@ -1914,13 +1914,13 @@ Reti Opening,Reti Opening: Advance Variation,black,A09,4,1928,1778,56
 Reti Opening,Reti Opening: Anglo-Slav Variation |  Bogoljubov Variation |  III,black,A12,2,1896,1900,46
 Reti Opening,Reti Opening: Reti Accepted,white,A09,8,1794,1645,58
 Reti Opening,Reti Opening: Reti Accepted,black,A09,2,1556,1590,43
-Reti Opening ,Reti Opening #2,draw,A04,3,1950,2204,29
-Reti Opening ,Reti Opening #2,white,A04,7,1841,1754,58
-Reti Opening ,Reti Opening #2,black,A04,9,1554,1725,39
+Reti Opening,Reti Opening #2,draw,A04,3,1950,2204,29
+Reti Opening,Reti Opening #2,white,A04,7,1841,1754,58
+Reti Opening,Reti Opening #2,black,A04,9,1554,1725,39
 Richter-Veresov Attack,Richter-Veresov Attack,draw,D01,1,1366,1644,122
 Richter-Veresov Attack,Richter-Veresov Attack,black,D01,7,1324,1513,63
 Richter-Veresov Attack,Richter-Veresov Attack,white,D01,2,1869,1604,50
-Richter-Veresov Attack ,Richter-Veresov Attack #2,white,D01,2,1654,1675,89
+Richter-Veresov Attack,Richter-Veresov Attack #2,white,D01,2,1654,1675,89
 Robatsch (Modern) Defense,Robatsch (Modern) Defense,black,B06,17,1574,1712,58
 Robatsch (Modern) Defense,Robatsch (Modern) Defense,white,B06,23,1701,1620,58
 Robatsch (Modern) Defense,Robatsch (Modern) Defense,draw,B06,2,1790,1658,108
@@ -2638,9 +2638,9 @@ Sicilian Defense,Sicilian Defense: Wing Gambit |  Deferred Variation,black,B50,1
 Sicilian Defense,Sicilian Defense: Wing Gambit |  Deferred Variation,white,B50,1,1994,2057,49
 Sicilian Defense,Sicilian Defense: Wing Gambit |  Marshall Variation,white,B20,2,2071,1668,26
 Sicilian Defense,Sicilian Defense: Wing Gambit |  Marshall Variation,black,B20,7,2134,2250,50
-Sicilian Defense ,Sicilian Defense #2,draw,B54,3,1579,1549,110
-Sicilian Defense ,Sicilian Defense #2,white,B54,30,1661,1638,63
-Sicilian Defense ,Sicilian Defense #2,black,B54,26,1750,1792,65
+Sicilian Defense,Sicilian Defense #2,draw,B54,3,1579,1549,110
+Sicilian Defense,Sicilian Defense #2,white,B54,30,1661,1638,63
+Sicilian Defense,Sicilian Defense #2,black,B54,26,1750,1792,65
 Slav Defense,Slav Defense,white,D10,15,1564,1356,52
 Slav Defense,Slav Defense,black,D10,18,1562,1645,55
 Slav Defense,Slav Defense,draw,D10,3,1452,1579,90
@@ -2688,11 +2688,11 @@ Slav Defense,Slav Defense: Three Knights Variation,black,D15,13,1657,1590,59
 Slav Defense,Slav Defense: Three Knights Variation,draw,D15,3,1682,1571,121
 Slav Defense,Slav Defense: Two Knights Attack,white,D15,1,1894,1946,171
 Slav Defense,Slav Defense: Winawer Countergambit,black,D10,1,1838,1818,44
-Slav Defense ,Slav Defense #2,black,D10,21,1671,1804,73
-Slav Defense ,Slav Defense #2,white,D10,16,1753,1670,64
-Slav Defense ,Slav Defense #2,draw,D10,5,1555,1534,120
-Slav Defense ,Slav Defense #3,black,D10,6,1594,1470,52
-Slav Defense ,Slav Defense #3,white,D10,5,1653,1328,63
+Slav Defense,Slav Defense #2,black,D10,21,1671,1804,73
+Slav Defense,Slav Defense #2,white,D10,16,1753,1670,64
+Slav Defense,Slav Defense #2,draw,D10,5,1555,1534,120
+Slav Defense,Slav Defense #3,black,D10,6,1594,1470,52
+Slav Defense,Slav Defense #3,white,D10,5,1653,1328,63
 Slav Indian,Slav Indian,white,A50,1,1793,850,31
 Slav Indian,Slav Indian,black,A50,5,1783,1886,88
 Sodium Attack,Sodium Attack,black,A00,3,1459,1449,56
@@ -2727,17 +2727,17 @@ Three Knights Opening,Three Knights Opening: Steinitz Defense,white,C46,1,1286,1
 Three Knights Opening,Three Knights Opening: Steinitz Defense,draw,C46,2,1566,1585,107
 Three Knights Opening,Three Knights Opening: Winawer Defense,white,C46,2,1454,1456,32
 Three Knights Opening,Three Knights Opening: Winawer Defense,black,C46,4,1724,1803,55
-Three Knights Opening ,Three Knights Opening #2,black,C46,8,1382,1459,66
-Three Knights Opening ,Three Knights Opening #2,white,C46,9,1469,1519,49
+Three Knights Opening,Three Knights Opening #2,black,C46,8,1382,1459,66
+Three Knights Opening,Three Knights Opening #2,white,C46,9,1469,1519,49
 Torre Attack,Torre Attack,draw,A46,1,2148,2213,99
 Torre Attack,Torre Attack,white,A48,6,1817,1816,47
 Torre Attack,Torre Attack,black,A46,2,1782,1742,92
 Torre Attack,Torre Attack,white,A46,2,1869,1972,55
 Torre Attack,Torre Attack,black,A48,3,1445,2088,59
 Torre Attack,Torre Attack: Classical Defense |  Nimzowitsch Variation,black,A46,3,1955,2024,63
-Torre Attack ,Torre Attack #2,black,A46,10,1556,1705,58
-Torre Attack ,Torre Attack #2,white,A46,4,1592,1488,66
-Torre Attack ,Torre Attack #2,draw,A46,2,1615,1474,100
+Torre Attack,Torre Attack #2,black,A46,10,1556,1705,58
+Torre Attack,Torre Attack #2,white,A46,4,1592,1488,66
+Torre Attack,Torre Attack #2,draw,A46,2,1615,1474,100
 Trompowsky Attack,Trompowsky Attack,white,A45,11,1785,1891,71
 Trompowsky Attack,Trompowsky Attack,black,A45,8,1894,1890,54
 Trompowsky Attack,Trompowsky Attack,draw,A45,3,1679,1487,97
@@ -2792,8 +2792,8 @@ Vienna Game,Vienna Game: Vienna Gambit |  Main Line,black,C29,1,2301,2449,32
 Vienna Game,Vienna Game: Vienna Gambit |  Main Line,white,C29,1,1651,1087,79
 Vienna Game,Vienna Game: Zhuravlev Countergambit #2,white,C25,3,1397,1437,67
 Vienna Game,Vienna Game: Zhuravlev Countergambit #2,black,C25,3,1448,1413,68
-Vienna Game ,Vienna Game #2,black,C27,1,2104,2456,26
-Vienna Game ,Vienna Game #2,white,C27,2,2012,2026,69
+Vienna Game,Vienna Game #2,black,C27,1,2104,2456,26
+Vienna Game,Vienna Game #2,white,C27,2,2012,2026,69
 Wade Defense,Wade Defense,black,A41,1,1798,1796,49
 Wade Defense,Wade Defense,white,A41,1,1780,1722,73
 Ware Defense,Ware Defense,black,B00,4,1649,1674,60
