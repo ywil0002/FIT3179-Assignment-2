@@ -1,0 +1,51 @@
+short_opening_name,winner,num_games
+Bishop's Opening,white,186
+Bishop's Opening,black,120
+Caro-Kann Defense,white,294
+Caro-Kann Defense,black,269
+English Opening,white,395
+English Opening,black,296
+Four Knights Game,white,193
+Four Knights Game,black,162
+French Defense,white,689
+French Defense,black,653
+Horwitz Defense,black,94
+Horwitz Defense,white,110
+Indian Game,white,123
+Indian Game,black,176
+Italian Game,white,483
+Italian Game,black,451
+King's Indian Defense,white,95
+King's Indian Defense,black,90
+King's Pawn Game,white,440
+King's Pawn Game,black,441
+Modern Defense,black,115
+Modern Defense,white,101
+Philidor Defense,white,396
+Philidor Defense,black,267
+Pirc Defense,black,114
+Pirc Defense,white,156
+Queen's Gambit Accepted,white,139
+Queen's Gambit Accepted,black,105
+Queen's Gambit Declined,white,211
+Queen's Gambit Declined,black,165
+Queen's Gambit Refused,white,152
+Queen's Gambit Refused,black,91
+Queen's Pawn Game,white,570
+Queen's Pawn Game,black,602
+Russian Game,black,97
+Russian Game,white,146
+Ruy Lopez,white,451
+Ruy Lopez,black,358
+Scandinavian Defense,black,332
+Scandinavian Defense,white,358
+Scotch Game,black,199
+Scotch Game,white,251
+Sicilian Defense,white,1203
+Sicilian Defense,black,1299
+Slav Defense,white,111
+Slav Defense,black,111
+Van't Kruijs Opening,black,226
+Van't Kruijs Opening,white,126
+Zukertort Opening,white,179
+Zukertort Opening,black,129
