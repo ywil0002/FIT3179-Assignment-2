@@ -1,0 +1,73 @@
+{
+    
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Comparing types of rankings" },
+    "data": {
+        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/Top_25_2021_ratings.csv"
+     },
+    "width": 300,
+    "height": 600,
+    "layer":[
+        {
+            "mark": {
+                "type": "line",
+                "stroke": "black"
+            },
+            "encoding": {
+                "x":{
+                    "field": "Attribute", 
+                    "type": "nominal",
+                    "axis": {
+                        "grid": true
+                    },
+                    "scale": {"padding": 0.15}
+                },
+            "y":{
+                    "field": "Value",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [2600,2910]
+                    },
+                    "axis": {
+                        "grid": false
+                    }
+                },
+                "detail": {"field": "name", "type": "nominal"}
+            }
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "fill": "black"
+            },
+            "encoding": {
+                "x":{
+                    "field": "Attribute", 
+                    "type": "nominal",
+                    "axis": {
+                        "grid": true
+                    },
+                    "scale": {"padding": 0.15}
+                },
+                "y":{
+                    "field": "Value",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [2600,2910]
+                    },
+                    "axis": {
+                        "grid": false
+                    }
+                },
+                "detail": {"field": "name", "type": "nominal"},
+                "size": {"value": 50},
+                "tooltip": [
+                    {"field": "name", "type": "nominal", "title":"Player Name"},
+                    {"field": "federation", "type": "nominal", "title":"Country"},
+                    {"field": "title", "type": "nominal", "title": "Title"}
+                ]
+            }
+        }
+    ]
+}
+    

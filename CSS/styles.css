@@ -1,0 +1,20 @@
+#page {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+    align-items: center;
+}
+
+.pure-g {
+    padding-bottom: 5%;
+}
+
+.left-edge {
+    padding-right: 5%;
+}
+
+.right-edge {
+    padding-left: 5%;
+}
