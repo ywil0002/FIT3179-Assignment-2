@@ -1,0 +1,91 @@
+{
+    
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Most popular openings" },
+    "data": {
+        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/openings_reduced.csv"
+     },
+     "transform": [
+        {
+            "joinaggregate": [{"op": "sum", "field": "num_games", "as": "total_games"}],
+            "groupby": ["short_opening_name"]
+        }
+     ],
+    "width": 400,
+    "height": 500,
+    "encoding": {
+        "x":{
+            "field": "num_games", 
+            "type": "quantitative",
+            "axis": {
+                "grid": false, 
+                "ticks": false, 
+                "title": null
+            }
+        },
+        "y":{
+            "field": "short_opening_name",
+            "type": "nominal",
+            "sort": {"op": "sum", "field": "num_games", "order":"descending"},
+            "axis": {
+                "grid": false, 
+                "ticks": false, 
+                "title": null
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "color": "gray"
+            },
+            "encoding": {
+                "detail": {
+                    "field": "short_opening_name",
+                    "type": "nominal"
+                },
+                "size": {"value": 2},
+                "opacity": {"value": 0.5}
+            }
+            
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "stroke": "black",
+                "strokeWidth": 1
+            },
+            "encoding": {
+                "color": {
+                        "field": "winner",
+                        "type": "ordinal",
+                        "scale": {
+                            "domain": ["white","black"],
+                            "range": ["white","black"]
+                        }
+                },
+                "size": {"value": 80},
+                "opacity": {"value": 1},
+                "tooltip": [
+                    {"field": "short_opening_name", "type": "nominal", "title":"Opening"},
+                    {"field": "winner", "type": "nominal", "title":"Winner"},
+                    {"field": "num_games", "type": "quantitative", "title":"Number of Games"},
+                    {"field": "total_games", "type": "quantitative", "title":"Total Number of Games"}
+                ]
+            }
+        }
+    ],
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        },
+        "facet": {
+            "spacing": 0
+        }
+    }
+    
+}
+    

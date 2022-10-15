@@ -1,0 +1,65 @@
+{
+    
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Difference in rating between winner and loser" },
+    "data": {
+        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/rating_diff.csv"
+     },
+     "transform": [
+        {"calculate": "datum.white_rating - datum.black_rating","as": "rating_diff"},
+        {"filter":{"field": "winner", "oneOf":["white", "black"]}}
+    ],
+    "facet": {"row": {"field": "winner"}},
+    "spec": {
+        "width": 600,
+        "height": 120,
+        "mark": {
+            "type": "circle",
+            "fill": "black"
+        },
+        "encoding": {
+            "x":{
+                "field": "turns", 
+                "type": "quantitative",
+                "axis": {
+                    "grid": false, 
+                    "ticks": false
+                },
+                "scale": {
+                    "domain": [0,200]
+                }
+            },
+            "y":{
+                "field": "rating_diff",
+                "type": "quantitative",
+                "axis": {
+                    "grid": false, 
+                    "ticks": false, 
+                    "title": null
+                },
+                "scale": {
+                    "domain": [-1000,1000]
+                }
+            },
+            "size": {"value": 3},
+            "opacity": {"value": 0.5},
+            "tooltip": [
+                {"field": "turns", "type": "quantitative", "title":"Number of turns"},
+                {"field": "rating_diff", "type": "quantitative", "title":"Difference in rating"}
+            ]
+        }
+          
+    },
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        },
+        "facet": {
+            "spacing": 0
+        }
+    }
+    
+}
+    
