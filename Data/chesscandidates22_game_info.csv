@@ -1,0 +1,57 @@
+game_order,date_played,round,white,black,result,winner,loser,eco
+1,2022.06.17,1.1,"Duda, Jan-Krzysztof","Rapport, Richard",1/2-1/2,draw,draw,B44
+2,2022.06.17,1.2,"Ding, Liren","Nepomniachtchi, Ian",0-1,"Nepomniachtchi, Ian","Ding, Liren",A20
+3,2022.06.17,1.3,"Caruana, Fabiano","Nakamura, Hikaru",1-0,"Caruana, Fabiano","Nakamura, Hikaru",C65
+4,2022.06.17,1.4,"Radjabov, Teimour","Firouzja, Alireza",1/2-1/2,draw,draw,D37
+5,2022.06.18,2.1,"Rapport, Richard","Firouzja, Alireza",1/2-1/2,draw,draw,B53
+6,2022.06.18,2.2,"Nakamura, Hikaru","Radjabov, Teimour",1-0,"Nakamura, Hikaru","Radjabov, Teimour",C65
+7,2022.06.18,2.3,"Nepomniachtchi, Ian","Caruana, Fabiano",1/2-1/2,draw,draw,C50
+8,2022.06.18,2.4,"Duda, Jan-Krzysztof","Ding, Liren",1/2-1/2,draw,draw,C50
+9,2022.06.19,3.1,"Ding, Liren","Rapport, Richard",1/2-1/2,draw,draw,D86
+10,2022.06.19,3.2,"Caruana, Fabiano","Duda, Jan-Krzysztof",1/2-1/2,draw,draw,B90
+11,2022.06.19,3.3,"Radjabov, Teimour","Nepomniachtchi, Ian",1/2-1/2,draw,draw,E04
+12,2022.06.19,3.4,"Firouzja, Alireza","Nakamura, Hikaru",1/2-1/2,draw,draw,E32
+13,2022.06.21,4.1,"Rapport, Richard","Nakamura, Hikaru",1/2-1/2,draw,draw,C65
+14,2022.06.21,4.2,"Nepomniachtchi, Ian","Firouzja, Alireza",1-0,"Nepomniachtchi, Ian","Firouzja, Alireza",B90
+15,2022.06.21,4.3,"Duda, Jan-Krzysztof","Radjabov, Teimour",1/2-1/2,draw,draw,C65
+16,2022.06.21,4.4,"Ding, Liren","Caruana, Fabiano",1/2-1/2,draw,draw,D38
+17,2022.06.22,5.1,"Caruana, Fabiano","Rapport, Richard",1/2-1/2,draw,draw,B46
+18,2022.06.22,5.2,"Radjabov, Teimour","Ding, Liren",1/2-1/2,draw,draw,E00
+19,2022.06.22,5.3,"Firouzja, Alireza","Duda, Jan-Krzysztof",1/2-1/2,draw,draw,C42
+20,2022.06.22,5.4,"Nakamura, Hikaru","Nepomniachtchi, Ian",1/2-1/2,draw,draw,C42
+21,2022.06.23,6.1,"Radjabov, Teimour","Rapport, Richard",1/2-1/2,draw,draw,B46
+22,2022.06.23,6.2,"Firouzja, Alireza","Caruana, Fabiano",0-1,"Caruana, Fabiano","Firouzja, Alireza",E06
+23,2022.06.23,6.3,"Nakamura, Hikaru","Ding, Liren",1/2-1/2,draw,draw,C50
+24,2022.06.23,6.4,"Nepomniachtchi, Ian","Duda, Jan-Krzysztof",1-0,"Nepomniachtchi, Ian","Duda, Jan-Krzysztof",A07
+25,2022.06.25,7.1,"Rapport, Richard","Nepomniachtchi, Ian",0-1,"Nepomniachtchi, Ian","Rapport, Richard",C42
+26,2022.06.25,7.2,"Duda, Jan-Krzysztof","Nakamura, Hikaru",1/2-1/2,draw,draw,E47
+27,2022.06.25,7.3,"Ding, Liren","Firouzja, Alireza",1/2-1/2,draw,draw,A20
+28,2022.06.25,7.4,"Caruana, Fabiano","Radjabov, Teimour",1-0,"Caruana, Fabiano","Radjabov, Teimour",B28
+29,2022.06.26,8.1,"Rapport, Richard","Duda, Jan-Krzysztof",1-0,"Rapport, Richard","Duda, Jan-Krzysztof",C46
+30,2022.06.26,8.2,"Nepomniachtchi, Ian","Ding, Liren",1/2-1/2,draw,draw,C47
+31,2022.06.26,8.3,"Nakamura, Hikaru","Caruana, Fabiano",1-0,"Nakamura, Hikaru","Caruana, Fabiano",C82
+32,2022.06.26,8.4,"Firouzja, Alireza","Radjabov, Teimour",1/2-1/2,draw,draw,C50
+33,2022.06.27,9.1,"Firouzja, Alireza","Rapport, Richard",1-0,"Firouzja, Alireza","Rapport, Richard",C65
+34,2022.06.27,9.2,"Radjabov, Teimour","Nakamura, Hikaru",1-0,"Radjabov, Teimour","Nakamura, Hikaru",C65
+35,2022.06.27,9.3,"Caruana, Fabiano","Nepomniachtchi, Ian",1/2-1/2,draw,draw,C42
+36,2022.06.27,9.4,"Ding, Liren","Duda, Jan-Krzysztof",1-0,"Ding, Liren","Duda, Jan-Krzysztof",A13
+37,2022.06.29,10.1,"Rapport, Richard","Ding, Liren",0-1,"Ding, Liren","Rapport, Richard",C77
+38,2022.06.29,10.2,"Duda, Jan-Krzysztof","Caruana, Fabiano",1-0,"Duda, Jan-Krzysztof","Caruana, Fabiano",C53
+39,2022.06.29,10.3,"Nepomniachtchi, Ian","Radjabov, Teimour",1/2-1/2,draw,draw,E06
+40,2022.06.29,10.4,"Nakamura, Hikaru","Firouzja, Alireza",1-0,"Nakamura, Hikaru","Firouzja, Alireza",B90
+41,2022.06.30,11.1,"Nakamura, Hikaru","Rapport, Richard",1/2-1/2,draw,draw,B33
+42,2022.06.30,11.2,"Firouzja, Alireza","Nepomniachtchi, Ian",0-1,"Nepomniachtchi, Ian","Firouzja, Alireza",C42
+43,2022.06.30,11.3,"Radjabov, Teimour","Duda, Jan-Krzysztof",1/2-1/2,draw,draw,A15
+44,2022.06.30,11.4,"Caruana, Fabiano","Ding, Liren",0-1,"Ding, Liren","Caruana, Fabiano",C88
+45,2022.07.01,12.1,"Rapport, Richard","Caruana, Fabiano",1/2-1/2,draw,draw,C65
+46,2022.07.01,12.2,"Ding, Liren","Radjabov, Teimour",0-1,"Radjabov, Teimour","Ding, Liren",E48
+47,2022.07.01,12.3,"Duda, Jan-Krzysztof","Firouzja, Alireza",1/2-1/2,draw,draw,D45
+48,2022.07.01,12.4,"Nepomniachtchi, Ian","Nakamura, Hikaru",1/2-1/2,draw,draw,C67
+49,2022.07.03,13.1,"Nepomniachtchi, Ian","Rapport, Richard",1/2-1/2,draw,draw,B67
+50,2022.07.03,13.2,"Nakamura, Hikaru","Duda, Jan-Krzysztof",1-0,"Nakamura, Hikaru","Duda, Jan-Krzysztof",B90
+51,2022.07.03,13.3,"Firouzja, Alireza","Ding, Liren",1/2-1/2,draw,draw,C47
+52,2022.07.03,13.4,"Radjabov, Teimour","Caruana, Fabiano",1/2-1/2,draw,draw,E04
+53,2022.07.04,14.1,"Rapport, Richard","Radjabov, Teimour",0-1,"Radjabov, Teimour","Rapport, Richard",C65
+54,2022.07.04,14.2,"Caruana, Fabiano","Firouzja, Alireza",0-1,"Firouzja, Alireza","Caruana, Fabiano",C65
+55,2022.07.04,14.3,"Ding, Liren","Nakamura, Hikaru",1-0,"Ding, Liren","Nakamura, Hikaru",D40
+56,2022.07.04,14.4,"Duda, Jan-Krzysztof","Nepomniachtchi, Ian",1/2-1/2,draw,draw,C43
