@@ -5,10 +5,13 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
     integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special%20Elite"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB%20Garamond"/>
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,25 +20,142 @@
 </head>
 <body>
     <div id="page">
-        <h1>CHESS</h1>
+        <div id="header">
+            <h1>CHESS</h1>
+            <div class="image">
+                <img src="Images/chess.png" width="100px"> 
+            </div>
+        </div>   
+        
+        <p>
+            Chess is a board game between two players, known as <b>White</b> and <b>Black</b>. Each game can end in a win for white (1-0), a win for black (0-1) or a draw (1/2-1/2).
+            The <b>International Chess Federation (FIDE)</b> acts as the foverning body of international chess competition, and assigns <b>official ratings (Elo)</b> to each registered player which can range from 1000-3000, with 3000 being the highest possible score.  
+        </p>
+
+        <div class="section">
+            <h2>Global Statistics</h2>
+
+            <div class="pure-g" style="height: 620px;">
+                <div class="pure-u-2-3">
+                    <div class="left">
+                        <div id="map2"></div>
+                    </div>
+                </div>
+                <div class="pure-u-1-3">
+                    <div class="right">
+                        <p>
+                             To become a FIDE rated player, you need to:
+                            <ul>
+                                <li>Participate in a FIDE rated event</li>
+                                <li>Play against a minimum of 5 other FIDE rated players</li>
+                                <li>Achieve a rating of at least 1000 (i.e. don't lose all 5 games)</li>
+                            </ul> 
+                            Certain titles can also be awarded based on a players rating.
+                        </p>
+                        <p>
+                            <i>Grand Master (GM):2500</i><br>
+                            <i>International Master (IM): 2400</i><br>
+                            <i>FIDE Master (FM): 2300</i><br>
+                            <i>Women Grand Master (WGM): 2300</i><br>
+                            <i>Women International Master (WIM): 2200</i><br>
+                            <i>Women FIDE Master (WFM): 2100</i><br>
+                        </p>
+                        <p>
+                            The chloropleth maps compare the quantity of FIDE rated players for each country, that fall under certain categories. The left column shows data for all players, and the right column only shows data for female players. 
+                            There is a long history of gender disparity among the Chess comunity, which is evidently more prevalent in certain areas of the world.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Top Players</h2>
+            <p>
+                Intro text
+            </p>
+           
+
+            <div class="pure-g" style="height: 750px;">
+                <div class="pure-u-2-3">
+                    <div class="left">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+                        <div class="pure-g" style="margin-top: 50px;">
+                            <div class="pure-u-1-2">
+                                <div class="left">
+                                    <div id="heatmap"></div>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-2">
+                                <div class="right">
+                                    <p>
+                                        Text about heat chart
+                                    </p>
+                                    <p>
+                                        Text about slope chart
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="pure-u-1-3">
+                    <div class="right">
+                        <div id="slope-chart"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="height: 600px;">
+                <div>
+                    <div id="bump"></div>
+                </div>
+            </div>
+        </div>
 
         <div class="section">
             <h2>Online Game Statistics</h2>
 
-            <div class="pure-g" style="height: 550px;">
-                <div class="pure-u-1-3">
+            <div class="pure-g" style="height: 600px;">
+                <div class="pure-u-2-3">
                     <div class="left">
-                        <div id="waffle-chart"></div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          As well as participating in FIDE organized tournaments, there are many online chess platforms where players can register and play against others online. 
+                          These platforms are not FIDE regulated, so players online ratings are often different to their official FIDE elo. 
+                          Additionally there is much more flexibility online around the time controls of the game, and players can elect to play 'casual' games which do not affect their rating at all.
                         </p>
+                        <p>
+                            The following charts analyse games from the online free-to-play chess platform <a href="https://lichess.org/">Lichess</a>. 
+                            They analyse the games won by White or Black, and what choices may help either player increase their chances of winning.
+                            For the purpose of these charts, games that resulted in a draw have been removed from the datasets. 
+                        </p>
+                        <div class="pure-g" style="margin-top: 50px;">
+                            <div class="pure-u-1-2">
+                                <div class="left">
+                                    <div id="waffle-chart"></div>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-2">
+                                <div class="right">
+                                    <p>
+                                        White has a slight advantage on average as 52% of games are won by White and only 48% are won by Black.
+                                    </p>
+                                    <p>
+                                        Text about openings chart
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="pure-u-2-3">
+                <div class="pure-u-1-3">
                     <div class="right">
                         <div id="openings_chart"></div>
                     </div>
@@ -50,16 +170,13 @@
                 </div>
                 <div class="pure-u-1-3">
                     <div class="right">
+                        
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            A turn in chess is complete when one move is made for the white player. So if a game had 10 turns, then the white player has made 10 moves, 
+                            and concequentially the black player has made either 9 or 10 moves. <br><br>
+                            The scatterplot compares 10 minute timed games based on the number of turns and the difference in rating 
+                            between the winning and losing player in each game. The games with a higher rating difference tend to be over in 
+                            about 30-60 moves, whereas we can see that when the match is more equal the games can take many more moves to finish. 
                         </p>
                     </div>
                 </div>
@@ -74,15 +191,22 @@
 
         var waffleChart = "JS/waffle.vg.json";
         var map = "JS/map.vg.json";
+        var map2 = "JS/small_map.vg.json";
         var slopeChart = "JS/slope.vg.json";
         var turnsChart = "JS/moves_v_rating.vg.json";
         var openings = "JS/openings.vg.json";
+        var bump = "JS/bump.vg.json";
+        var slope = "JS/slope.vg.json";
+        var heatmap = "JS/Heatmap.vg.json";
 
     
         vegaEmbed('#waffle-chart', waffleChart).then(function(result) {
         }).catch(console.error);
 
         vegaEmbed('#map', map).then(function(result) {
+        }).catch(console.error);
+
+        vegaEmbed('#map2', map2).then(function(result) {
         }).catch(console.error);
 
         vegaEmbed('#slope-chart', slopeChart).then(function(result) {
@@ -92,6 +216,15 @@
         }).catch(console.error);
 
         vegaEmbed('#openings_chart', openings).then(function(result) {
+        }).catch(console.error);
+
+        vegaEmbed('#bump', bump).then(function(result) {
+        }).catch(console.error);
+
+        vegaEmbed('#slope', slope).then(function(result) {
+        }).catch(console.error);
+
+        vegaEmbed('#heatmap', heatmap).then(function(result) {
         }).catch(console.error);
 
       </script>
