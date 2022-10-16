@@ -15,7 +15,8 @@
     /* padding: 3%; */
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1, h2 {
@@ -32,6 +33,13 @@ h1 {
 
 h2 {
     font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 2.5em;
 }
 
 .image {
@@ -54,4 +62,8 @@ h2 {
 
 #header {
     height: 150px;
+}
+
+#intro {
+    margin-bottom: 1em;
 }

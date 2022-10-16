@@ -15,10 +15,10 @@
             },
             "as": "geo"
         },
-        {"calculate": "(datum['Num_Players'])/datum['2022_Population'] * 1000000", "as": "Players_per_1M"},
-        {"calculate": "datum['Women']/datum['2022_Population'] * 2000000", "as": "Women_per_2M"}
+        {"calculate": "datum['GMs']/datum['Num_Players'] * 1000", "as": "GM%"},
+        {"calculate": "datum['WGMs']/(toNumber(datum['Women'])+toNumber(0.01)) * 1000", "as": "WGM%"}
     ],
-    "repeat": ["Players_per_1M","Women_per_2M"],
+    "repeat": ["GM%","WGM%"],
     "columns": 2,
     "spec": {
         "projection": {"type": "equalEarth"},
@@ -69,7 +69,7 @@
                         "type": "quantitative",
                         "scale": {
                             "type": "threshold",
-                            "domain": [0.01, 4, 20, 80, 200],
+                            "domain": [0.01, 5, 10, 15, 20],
                             "range": ["#fef0d9","#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20","#bd0026"]
                         },
                         "legend": {
@@ -79,10 +79,10 @@
                     },
                     "tooltip": [
                         {"field": "Country", "type": "nominal", "title":"Country"},
-                        {"field": "Num_Players", "type": "quantitative", "title":"Number of players"},
-                        {"field": "Players_per_1M", "type": "quantitative", "title":"Players per 1M population", "format": ".2f"},
-                        {"field": "Women", "type": "quantitative", "title":"Number of female players"},
-                        {"field": "Women_per_2M", "type": "quantitative", "title":"Women per 2M population", "format": ".2f"}
+                        {"field": "GMs", "type": "quantitative", "title":"Number of GMs"},
+                        {"field": "GM%", "type": "quantitative", "title":"GMs per 1000 players", "format": ".2f"},
+                        {"field": "WGMs", "type": "quantitative", "title":"Number of WGMs"},
+                        {"field": "WGM%", "type": "quantitative", "title":"WGMs per 1000 female player", "format": ".2f"}
                     ]    
                 }
             },
@@ -90,20 +90,20 @@
                 "data": {
                     "values": [
                     {
-                        "Players_per_1M": "Players per 1M population",
-                        "Women_per_2M": "Female players per 2M population"
+                        "GM%": "GMs per 1000 players",
+                        "WGM%": "WGMs per 1000 female players"
                     }
                     ]
                 },
                 "mark": {
-                  "type": "text",
-                  "align": "center",
-                  "baseline": "top",
-                  "x": 150,
-                  "y": 0,
-                  "fontSize": 12,
-                  "fontWeight": "bold"
-                },
+                    "type": "text",
+                    "align": "center",
+                    "baseline": "top",
+                    "x": 150,
+                    "y": 0,
+                    "fontSize": 12,
+                    "fontWeight": "bold"
+                  },
                 "encoding": {"text": {"field": {"repeat": "repeat"}}}
             }
         ]

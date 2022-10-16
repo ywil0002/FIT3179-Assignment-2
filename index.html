@@ -27,7 +27,7 @@
             </div>
         </div>   
         
-        <p>
+        <p id="intro">
             Chess is a board game between two players, known as <b>White</b> and <b>Black</b>. Each game can end in a win for white (1-0), a win for black (0-1) or a draw (1/2-1/2).
             The <b>International Chess Federation (FIDE)</b> acts as the foverning body of international chess competition, and assigns <b>official ratings (Elo)</b> to each registered player which can range from 1000-3000, with 3000 being the highest possible score.  
         </p>
@@ -35,35 +35,34 @@
         <div class="section">
             <h2>Global Statistics</h2>
 
-            <div class="pure-g" style="height: 620px;">
+            <div class="pure-g" style="height: 700px;">
                 <div class="pure-u-2-3">
                     <div class="left">
+                        <div id="map"></div>
                         <div id="map2"></div>
+                        <div id="map3"></div>
                     </div>
                 </div>
                 <div class="pure-u-1-3">
                     <div class="right">
                         <p>
-                             To become a FIDE rated player, you need to:
-                            <ul>
-                                <li>Participate in a FIDE rated event</li>
-                                <li>Play against a minimum of 5 other FIDE rated players</li>
-                                <li>Achieve a rating of at least 1000 (i.e. don't lose all 5 games)</li>
-                            </ul> 
-                            Certain titles can also be awarded based on a players rating.
+                            Becoming a FIDE rating player requires: participation in a FIDE rated event, playing against at least 5 other rated players, and winning at least one of those games. 
+                            <br><br>
+                            Certain titles can also be awarded based on a players rating. <i>Grand Master (GM)</i> is awarded for an elo of <i>2500+</i> and <i>Women Grand Master (WGM)</i> for <i>2300+</i>. 
+                            These are the most prestigious titles, but others are available.
                         </p>
                         <p>
-                            <i>Grand Master (GM):2500</i><br>
-                            <i>International Master (IM): 2400</i><br>
-                            <i>FIDE Master (FM): 2300</i><br>
-                            <i>Women Grand Master (WGM): 2300</i><br>
-                            <i>Women International Master (WIM): 2200</i><br>
-                            <i>Women FIDE Master (WFM): 2100</i><br>
+                            The chloropleth maps compare the each countries FIDE rated players. 
+                            The left column shows data for all players, and the right column only shows data for female players. 
+                            <br><br>
+                            The first two maps compare the number of players per population in each country.
+                            If women made up half the players in a country, that country would have the same values in both maps. 
+                            However this is rarely the case, in <b>Sweden</b> there are more than <b>135 times</b> as many male players as female players.
+                            <br><br>
+                            In contrast, the percentage of female players that are strong enough to hold a title is higher than that of men in many countries.
+                            In <b>Australia</b> <b>16.9%</b> of female players are titled compared to only <b>4.4%</b> of men.
                         </p>
-                        <p>
-                            The chloropleth maps compare the quantity of FIDE rated players for each country, that fall under certain categories. The left column shows data for all players, and the right column only shows data for female players. 
-                            There is a long history of gender disparity among the Chess comunity, which is evidently more prevalent in certain areas of the world.  
-                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -190,8 +189,9 @@
     <script type="text/javascript">
 
         var waffleChart = "JS/waffle.vg.json";
-        var map = "JS/map.vg.json";
-        var map2 = "JS/small_map.vg.json";
+        var map = "JS/small_map.vg.json";
+        var map2 = "JS/small_map2.vg.json";
+        var map3 = "JS/small_map3.vg.json";
         var slopeChart = "JS/slope.vg.json";
         var turnsChart = "JS/moves_v_rating.vg.json";
         var openings = "JS/openings.vg.json";
@@ -207,6 +207,9 @@
         }).catch(console.error);
 
         vegaEmbed('#map2', map2).then(function(result) {
+        }).catch(console.error);
+
+        vegaEmbed('#map3', map3).then(function(result) {
         }).catch(console.error);
 
         vegaEmbed('#slope-chart', slopeChart).then(function(result) {
