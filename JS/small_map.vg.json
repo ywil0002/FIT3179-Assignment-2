@@ -1,0 +1,125 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Global Chess",
+    "data": {
+        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/chess_map_data.csv"
+    },
+    "transform": [
+        {
+            "lookup": "CCA3",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/JS/ne_110m.json",
+                    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                },
+                "key": "properties.ADM0_A3"
+            },
+            "as": "geo"
+        },
+        {"calculate": "toNumber(datum['GMs']) + toNumber(datum['IMs']) + toNumber(datum['FMs'])", "as": "Titled"},
+        {"calculate": "toNumber(datum['WGMs']) + toNumber(datum['WIMs']) + toNumber(datum['WFMs'])", "as": "WTitled"},
+        {"calculate": "(datum['Num_Players']-datum['Women'])/datum['Num_Players'] * 100", "as": "Players_%"},
+        {"calculate": "datum['Women']/datum['Num_Players'] * 100", "as": "Women_%"},
+        {"calculate": "datum['Titled']/datum['Num_Players'] * 1000", "as": "Titled_%"},
+        {"calculate": "datum['WTitled']/datum['Num_Players'] * 1000", "as": "WTitled_%"}
+    ],
+    "repeat": ["Players_%","Women_%","Titled_%","WTitled_%"],
+    "columns": 2,
+    "spec": {
+        "projection": {"type": "equalEarth"},
+        "width": 300,
+        "height": 200,
+        "layer": [
+            {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+                    "format": {"type": "topojson", "feature": "oceans"}
+                },
+                "mark": {"type": "geoshape", "fill": "#b6ecf99c"}
+            },
+            {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/JS/ne_110m.json",
+                    "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+                },
+                "mark": {
+                    "type": "geoshape", 
+                    "fill": null,
+                    "stroke": "white"
+                }
+            },
+            {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/JS/ne_110m.json",
+                    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+                },
+                "transform": [
+                    {
+                        "calculate": "'Data is not available in ' + datum.properties.NAME", "as": "note"
+                    }
+                ],
+                "mark": {
+                    "type": "geoshape", 
+                    "fill": "lightgray", 
+                    "stroke": "white"
+                },
+                "encoding":{"tooltip": {"field": "note"}}
+            },
+            {
+                "mark": {"type": "geoshape"},
+                "encoding": {
+                    "shape": {"field": "geo", "type": "geojson"},
+                    "color": {
+                        "field": {"repeat": "repeat"},
+                        "type": "quantitative",
+                        "scale": {
+                            "type": "threshold",
+                            "domain": [5, 10, 20, 80],
+                            "range": ["#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20","#bd0026"]
+                        },
+                        "legend": {
+                            "orient": "bottom"
+                        }
+                    },
+                    "tooltip": [
+                        {"field": "Titled", "type": "quantitative", "title":"Titled"},
+                        {"field": "Country", "type": "nominal", "title":"Country"},
+                        {"field": "Num_Players", "type": "quantitative", "title":"Total number of players"},
+                        {"field": {"repeat": "repeat"}, "type": "quantitative", "format": ".2f", "title": "Total number"}
+                    ]    
+                }
+            },
+            {
+                "data": {
+                    "values": [
+                    {
+                        "Players_%": "Players_%",
+                        "Women_%": "Women_%",
+                        "Titled_%": "Titled_%",
+                        "WTitled_%": "WTitled_%"
+                    }
+                    ]
+                },
+                "mark": {
+                  "type": "text",
+                  "align": "left",
+                  "baseline": "bottom",
+                  "x": 0,
+                  "y": "height"
+                },
+                "encoding": {"text": {"field": {"repeat": "repeat"}}}
+            }
+        ]
+    },  
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        },
+        "facet": {
+            "spacing": 0
+        }
+    }
+    
+}

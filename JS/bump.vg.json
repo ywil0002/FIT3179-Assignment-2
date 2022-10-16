@@ -1,0 +1,75 @@
+{
+    
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Comparing types of rankings" },
+    "data": {
+        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/player_ratings.csv"
+     },
+    "width": 1000,
+    "height": 500,
+    "transform": [
+        {"calculate": "toNumber(datum['Index'])", "as": "rank"},
+        {"filter": {"field": "rank", "lte": 50}},
+        {"filter": {"field": "rating_type", "oneOf":["rating_standard"]}}
+    ],
+    "layer":[
+        {
+            "mark": {
+                "type": "line"
+            },
+            "encoding": {
+                "x":{
+                    "field": "year", 
+                    "type": "ordinal",
+                    "axis": {
+                        "grid": true
+                    }
+                    },
+                "y":{
+                        "field": "rank",
+                        "type": "ordinal",
+                        "axis": {
+                            "grid": false
+                        },
+                        "sort": "ascending"
+                    },
+                "detail": {"field": "fide_id", "type": "nominal"},
+                "color": {
+                    "field": "federation",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "fill": "black"
+            },
+            "encoding": {
+                "x":{
+                    "field": "year", 
+                    "type": "ordinal",
+                    "axis": {
+                        "grid": true
+                    }
+                },
+                "y":{
+                        "field": "rank",
+                        "type": "ordinal",
+                        "axis": {
+                            "grid": false
+                        },
+                        "sort": "descending"
+                    },
+                "detail": {"field": "fide_id", "type": "nominal"},
+                "size": {"value": 60},
+                "tooltip": [
+                    {"field": "name", "type": "nominal", "title":"Player Name"},
+                    {"field": "federation", "type": "nominal", "title":"Country"}
+                ]
+               
+            }
+        }
+    ]
+}
+    

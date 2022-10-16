@@ -51,6 +51,16 @@
             "legend":null
         },
         "size": {"value": 300}
+    },
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        },
+        "facet": {
+            "spacing": 0
+        }
     }
 }
     

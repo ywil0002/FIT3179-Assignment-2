@@ -1,0 +1,69 @@
+{
+    
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Candidate Tournament 2022" },
+    "data": {
+        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/chesscandidates22_game_info.csv"
+     },
+    "width": 250,
+    "height": 250,
+    "layer": [
+        {
+            "mark": {
+                "type": "text",
+                "color": "red",
+                "fontWeight": "normal",
+                "fontSize": 14,
+                "text": "N/A"
+            },
+            "encoding": {
+                "x":{
+                    "field": "white", 
+                    "type": "nominal",
+                    "axis": {
+                        "grid": false
+                    }
+                },
+                "y":{
+                    "field": "white",
+                    "type": "nominal",
+                    "axis": {
+                        "grid": false
+                    }
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "rect",
+                "stroke": "black"
+            },
+            "encoding": {
+                "x":{
+                    "field": "white", 
+                    "type": "nominal",
+                    "axis": {
+                        "grid": false
+                    }
+                },
+                "y":{
+                    "field": "black",
+                    "type": "nominal",
+                    "axis": {
+                        "grid": false
+                    }
+                },
+                "color": {
+                    "field": "result",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": ["1-0","0-1","1/2-1/2"],
+                        "range": ["white","black","gray"]
+                    }
+                }
+            }
+        }
+    ]
+    
+}
+    

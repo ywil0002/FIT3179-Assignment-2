@@ -3,19 +3,22 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": { "text": "Comparing types of rankings" },
     "data": {
-        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/Top_25_2021_ratings.csv"
+        "url": "https://raw.githubusercontent.com/ywil0002/FIT3179-Assignment-2/master/Data/player_ratings.csv"
      },
+     "transform": [
+        {"filter": {"field": "Index", "lte": 50}},
+        {"filter": {"field": "year", "oneOf": ["2021"]}}
+    ],
     "width": 300,
     "height": 600,
     "layer":[
         {
             "mark": {
-                "type": "line",
-                "stroke": "black"
+                "type": "line"
             },
             "encoding": {
                 "x":{
-                    "field": "Attribute", 
+                    "field": "rating_type", 
                     "type": "nominal",
                     "axis": {
                         "grid": true
@@ -23,26 +26,29 @@
                     "scale": {"padding": 0.15}
                 },
             "y":{
-                    "field": "Value",
+                    "field": "rating",
                     "type": "quantitative",
                     "scale": {
-                        "domain": [2600,2910]
+                        "domain": [2550,2910]
                     },
                     "axis": {
                         "grid": false
                     }
                 },
-                "detail": {"field": "name", "type": "nominal"}
+                "detail": {"field": "name", "type": "nominal"},
+                "color": {
+                    "field": "federation",
+                    "type": "nominal"
+                }
             }
         },
         {
             "mark": {
-                "type": "circle",
-                "fill": "black"
+                "type": "circle"
             },
             "encoding": {
                 "x":{
-                    "field": "Attribute", 
+                    "field": "rating_type", 
                     "type": "nominal",
                     "axis": {
                         "grid": true
@@ -50,7 +56,7 @@
                     "scale": {"padding": 0.15}
                 },
                 "y":{
-                    "field": "Value",
+                    "field": "rating",
                     "type": "quantitative",
                     "scale": {
                         "domain": [2600,2910]
@@ -64,8 +70,13 @@
                 "tooltip": [
                     {"field": "name", "type": "nominal", "title":"Player Name"},
                     {"field": "federation", "type": "nominal", "title":"Country"},
-                    {"field": "title", "type": "nominal", "title": "Title"}
-                ]
+                    {"field": "title", "type": "nominal", "title": "Title"},
+                    {"field": "rating", "type": "quantitative", "title": "Rating"}
+                ],
+                "color": {
+                    "field": "federation",
+                    "type": "nominal"
+                }
             }
         }
     ]
