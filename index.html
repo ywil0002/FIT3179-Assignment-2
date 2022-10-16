@@ -27,7 +27,7 @@
             </div>
         </div>   
         
-        <p id="intro">
+        <p id="intro" class="ground">
             Chess is a board game between two players, known as <b>White</b> and <b>Black</b>. Each game can end in a win for white (1-0), a win for black (0-1) or a draw (1/2-1/2).
             The <b>International Chess Federation (FIDE)</b> acts as the foverning body of international chess competition, and assigns <b>official ratings (Elo)</b> to each registered player which can range from 1000-3000, with 3000 being the highest possible score.  
         </p>
@@ -45,15 +45,17 @@
                 </div>
                 <div class="pure-u-1-3">
                     <div class="right">
-                        <p>
+                        <p class="ground">
                             Becoming a FIDE rating player requires: participation in a FIDE rated event, playing against at least 5 other rated players, and winning at least one of those games. 
                             <br><br>
                             Certain titles can also be awarded based on a players rating. <i>Grand Master (GM)</i> is awarded for an elo of <i>2500+</i> and <i>Women Grand Master (WGM)</i> for <i>2300+</i>. 
                             These are the most prestigious titles, but others are available.
                         </p>
-                        <p>
-                            The chloropleth maps compare the each countries FIDE rated players. 
-                            The left column shows data for all players, and the right column only shows data for female players. 
+                        <p class="ground">
+                            <span class="ground">
+                                The chloropleth maps compare the each countries FIDE rated players. 
+                                The left column shows data for all players, and the right column only shows data for female players. 
+                            </span>
                             <br><br>
                             The first two maps compare the number of players per population in each country.
                             If women made up half the players in a country, that country would have the same values in both maps. 
@@ -70,21 +72,28 @@
 
         <div class="section">
             <h2>Top Players</h2>
-            <p>
-                Intro text
-            </p>
-           
-
             <div class="pure-g" style="height: 750px;">
                 <div class="pure-u-2-3">
                     <div class="left">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        <p class="ground" style="margin-bottom: 15px;">
+                            Every two years FIDE holds a <b>Candidates Tournament</b> between 8 players, 
+                            the winner of which challenges the existing world champion for their title.  
+                            The tournament is played in double round-robin style, so each players plays two games
+                            against each other player, one as white and one as black. 
+                            In 2022 the defending champion was <b>Magnus Carlsen (Norway)</b> and the candidates were:
                         </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        </p>
-                        <div class="pure-g" style="margin-top: 50px;">
+                        <ul class="ground" style="columns: 2; list-style: none; padding-left: 0; margin-top: 15px;">
+                            <li>Ian Nepominiachtchi (FIDE)</li>
+                            <li>Teimour Radjabov (Azerbaijan)</li>
+                            <li>Jan-Krzysztof Duda (Poland)</li>
+                            <li>Alireza Firouzja (France)</li>
+                            <li>Fabiano Caruana (USA)</li>
+                            <li>Hikaru Nakamura (USA)</li>
+                            <li>Richard Rapport (Hungary)</li>
+                            <li>Ding Liren (China)</li>
+                        </ul>
+
+                        <div class="pure-g" style="margin-top: 20px;">
                             <div class="pure-u-1-2">
                                 <div class="left">
                                     <div id="heatmap"></div>
@@ -92,9 +101,6 @@
                             </div>
                             <div class="pure-u-1-2">
                                 <div class="right">
-                                    <p>
-                                        Text about heat chart
-                                    </p>
                                     <p>
                                         Text about slope chart
                                     </p>
@@ -124,29 +130,30 @@
             <div class="pure-g" style="height: 600px;">
                 <div class="pure-u-2-3">
                     <div class="left">
-                        <p>
-                          As well as participating in FIDE organized tournaments, there are many online chess platforms where players can register and play against others online. 
-                          These platforms are not FIDE regulated, so players online ratings are often different to their official FIDE elo. 
-                          Additionally there is much more flexibility online around the time controls of the game, and players can elect to play 'casual' games which do not affect their rating at all.
-                        </p>
-                        <p>
+                        <p class="ground">
                             The following charts analyse games from the online free-to-play chess platform <a href="https://lichess.org/">Lichess</a>. 
                             They analyse the games won by White or Black, and what choices may help either player increase their chances of winning.
                             For the purpose of these charts, games that resulted in a draw have been removed from the datasets. 
                         </p>
+                        
                         <div class="pure-g" style="margin-top: 50px;">
                             <div class="pure-u-1-2">
                                 <div class="left">
-                                    <div id="waffle-chart"></div>
+                                    <div id="waffle-chart" style="margin-bottom: 10px;"></div>
+                                    <p>
+                                        White has a slight advantage on average as <b>52%</b> of games are won by <b>White</b> and only <b>48%</b> are won by <b>Black</b>.
+                                    </p>
                                 </div>
                             </div>
                             <div class="pure-u-1-2">
                                 <div class="right">
-                                    <p>
-                                        White has a slight advantage on average as 52% of games are won by White and only 48% are won by Black.
-                                    </p>
-                                    <p>
-                                        Text about openings chart
+                                    <p class="ground">
+                                        As well as participating in FIDE organized tournaments, there are many online chess platforms where players can register and play against others online. 
+                                        These platforms are not FIDE regulated, so players online ratings are often different to their official FIDE elo. 
+                                        Additionally there is much more flexibility online around the time controls of the game, and players can elect to play 'casual' games which do not affect their rating at all.
+                                    <br><br>
+                                        A turn in chess is complete when one move is made for the white player. So if a game had 10 turns, then the white player has made 10 moves, 
+                                        and concequentially the black player has made either 9 or 10 moves.  
                                     </p>
                                 </div>
                             </div>
@@ -169,13 +176,15 @@
                 </div>
                 <div class="pure-u-1-3">
                     <div class="right">
-                        
                         <p>
-                            A turn in chess is complete when one move is made for the white player. So if a game had 10 turns, then the white player has made 10 moves, 
-                            and concequentially the black player has made either 9 or 10 moves. <br><br>
+                            The dot plot compares the most popular openings by the number of wins for White and Black. 
+                            The <b>Sicilian Defence</b> is by far the most popular, and a great choice for <b>Black</b>, who wins <b>52%</b> of the time.
+                        </p>
+                        <p class="ground">
                             The scatterplot compares 10 minute timed games based on the number of turns and the difference in rating 
-                            between the winning and losing player in each game. The games with a higher rating difference tend to be over in 
-                            about 30-60 moves, whereas we can see that when the match is more equal the games can take many more moves to finish. 
+                            between the players. The games with a higher difference tend to be over in 
+                            about 30-60 moves, whereas when the match is more equal the games can take much longer. 
+                            The longest game in this category was <b>210 moves</b> long and the players rantings had a <b>difference</b> of <b>29</b>.
                         </p>
                     </div>
                 </div>

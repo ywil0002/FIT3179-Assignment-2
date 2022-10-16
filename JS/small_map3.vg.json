@@ -69,12 +69,13 @@
                         "type": "quantitative",
                         "scale": {
                             "type": "threshold",
-                            "domain": [0.01, 5, 10, 15, 20],
+                            "domain": [0.001, 5, 10, 15, 20],
                             "range": ["#fef0d9","#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20","#bd0026"]
                         },
                         "legend": {
                             "orient": "right",
-                            "title": null
+                            "title": null,
+                            "format": ".0f"
                         }
                     },
                     "tooltip": [

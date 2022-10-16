@@ -11,8 +11,8 @@
             "groupby": ["short_opening_name"]
         }
      ],
-    "width": 400,
-    "height": 500,
+    "width": 380,
+    "height": 550,
     "encoding": {
         "x":{
             "field": "num_games", 
@@ -30,7 +30,9 @@
             "axis": {
                 "grid": false, 
                 "ticks": false, 
-                "title": null
+                "title": null,
+                "labelPadding": -300,
+                "labelAlign": "center"
             }
         }
     },
@@ -63,6 +65,9 @@
                         "scale": {
                             "domain": ["white","black"],
                             "range": ["white","black"]
+                        },
+                        "legend": {
+                            "orient": "top-left"
                         }
                 },
                 "size": {"value": 80},
@@ -81,9 +86,6 @@
             "cell": {
                 "stroke": "transparent"
             }
-        },
-        "facet": {
-            "spacing": 0
         }
     }
     

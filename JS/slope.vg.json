@@ -7,7 +7,12 @@
      },
      "transform": [
         {"filter": {"field": "Index", "lte": 50}},
-        {"filter": {"field": "year", "oneOf": ["2021"]}}
+        {"filter": {"field": "year", "oneOf": ["2021"]}},
+        {
+            "bin": true, 
+            "field": "name", 
+            "as": "binned_name"
+        }
     ],
     "width": 300,
     "height": 600,
@@ -37,8 +42,9 @@
                 },
                 "detail": {"field": "name", "type": "nominal"},
                 "color": {
-                    "field": "federation",
-                    "type": "nominal"
+                    "field": "binned_name",
+                    "type": "nominal",
+                    "legend": null
                 }
             }
         },
@@ -74,11 +80,18 @@
                     {"field": "rating", "type": "quantitative", "title": "Rating"}
                 ],
                 "color": {
-                    "field": "federation",
+                    "field": "binned_name",
                     "type": "nominal"
                 }
             }
         }
-    ]
+    ],
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    }
 }
     

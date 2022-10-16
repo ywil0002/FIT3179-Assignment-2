@@ -7,8 +7,8 @@
             {"category": "black", "value": 9107}
           ]
      },
-    "width": 240,
-    "height": 240,
+    "width": 300,
+    "height": 300,
     "transform": [
         {"joinaggregate": [{"op": "sum", "field": "value", "as": "CountGames"}]},
         {"calculate": "round(datum.value/datum.CountGames * 100)","as": "P"},
@@ -50,7 +50,7 @@
             },
             "legend":null
         },
-        "size": {"value": 300}
+        "size": {"value": 380}
     },
     "config": {
         "style": {
