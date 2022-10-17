@@ -21,16 +21,22 @@
 <body>
     <div id="page">
         <div id="header">
-            <h1>CHESS</h1>
-            <div class="image">
-                <img src="Images/chess.png" width="100px"> 
+            <div class="pure-g">
+                <div class="pure-u-1-3">
+                    <h1>CHESS</h1>
+                </div>
+                <div class="pure-u-2-3">
+                    <p id="intro" class="ground" style="padding-top: 20px;">
+                        Chess is a board game between two players, known as <b>White</b> and <b>Black</b>. Each game can end in a win for white (1-0), a win for black (0-1) or a draw (1/2-1/2).
+                        The <b>International Chess Federation (FIDE)</b> acts as the foverning body of international chess competition, and assigns <b>official ratings (Elo)</b> to each registered player which can range from 1000-3000, with 3000 being the highest possible score.  
+                    </p>
+                </div>
             </div>
+            
+            
         </div>   
         
-        <p id="intro" class="ground">
-            Chess is a board game between two players, known as <b>White</b> and <b>Black</b>. Each game can end in a win for white (1-0), a win for black (0-1) or a draw (1/2-1/2).
-            The <b>International Chess Federation (FIDE)</b> acts as the foverning body of international chess competition, and assigns <b>official ratings (Elo)</b> to each registered player which can range from 1000-3000, with 3000 being the highest possible score.  
-        </p>
+        
 
         <div class="section">
             <h2>Global Statistics</h2>
@@ -72,7 +78,7 @@
 
         <div class="section">
             <h2>Top Players</h2>
-            <div class="pure-g" style="height: 750px;">
+            <div class="pure-g" style="height: 700px;">
                 <div class="pure-u-2-3">
                     <div class="left">
                         <p class="ground" style="margin-bottom: 15px;">
@@ -80,17 +86,17 @@
                             the winner of which challenges the existing world champion for their title.  
                             The tournament is played in double round-robin style, so each players plays two games
                             against each other player, one as white and one as black. 
-                            In 2022 the defending champion was <b>Magnus Carlsen (Norway)</b> and the candidates were:
+                            In 2022 the defending champion was <b style="color: #e60049;">Magnus Carlsen (Norway)</b> and the candidates were:
                         </p>
                         <ul class="ground" style="columns: 2; list-style: none; padding-left: 0; margin-top: 15px;">
-                            <li>Ian Nepominiachtchi (FIDE)</li>
-                            <li>Teimour Radjabov (Azerbaijan)</li>
-                            <li>Jan-Krzysztof Duda (Poland)</li>
-                            <li>Alireza Firouzja (France)</li>
-                            <li>Fabiano Caruana (USA)</li>
-                            <li>Hikaru Nakamura (USA)</li>
-                            <li>Richard Rapport (Hungary)</li>
-                            <li>Ding Liren (China)</li>
+                            <li style="color: #00bfa0;"><b>Ian Nepominiachtchi (FIDE)</b></li>
+                            <li style="color: brown;"><b>Teimour Radjabov (Azerbaijan)</b></li>
+                            <li style="color: #50e991;"><b>Jan-Krzysztof Duda (Poland)</b></li>
+                            <li style="color: #dc0ab4;"><b>Alireza Firouzja (France)</b></li>
+                            <li style="color: #0bb4ff;"><b>Fabiano Caruana (USA)</b></li>
+                            <li style="color: #ffa300;"><b>Hikaru Nakamura (USA)</b></li>
+                            <li style="color: #9b19f5;"><b>Richard Rapport (Hungary)</b></li>
+                            <li style="color: #e6d800;"><b>Ding Liren (China)</b></li>
                         </ul>
 
                         <div class="pure-g" style="margin-top: 20px;">
@@ -100,9 +106,17 @@
                                 </div>
                             </div>
                             <div class="pure-u-1-2">
-                                <div class="right">
+                                <div class=" ground right">
                                     <p>
-                                        Text about slope chart
+                                        <br>The slope chart compares top players ratings in the standard, rapid and blitz categories.
+                                        The general trend shows that top players tend to perform worse in rapid then standard chess.
+                                        <b>Hikaru Nakumara</b> is the exception to the trend, with significantly higher scores in the blitz 
+                                        and rapid categories.
+                                    </p>
+                                    <p>
+                                        The bump chart compares the top 100 players based on rating over the last 7 years. 
+                                        <b>Magnus Carlsen</b> has maitained the top position for the entire time period, with 
+                                        <b>Caruana</b> and <b>Kasparov</b> fighting for the second position. 
                                     </p>
                                 </div>
                             </div>
@@ -130,7 +144,7 @@
             <div class="pure-g" style="height: 600px;">
                 <div class="pure-u-2-3">
                     <div class="left">
-                        <p class="ground">
+                        <p class="ground" style="width: 700px;">
                             The following charts analyse games from the online free-to-play chess platform <a href="https://lichess.org/">Lichess</a>. 
                             They analyse the games won by White or Black, and what choices may help either player increase their chances of winning.
                             For the purpose of these charts, games that resulted in a draw have been removed from the datasets. 
@@ -168,7 +182,7 @@
                 </div>
             </div>
 
-            <div class="pure-g"  style="height: 350px;">
+            <div class="pure-g"  style="height: 390px;">
                 <div class="pure-u-2-3">
                     <div class=" left">
                         <div id="turns_chart"></div>
@@ -192,6 +206,11 @@
                 
             
         </div>
+        <div id="footer">
+            <p>
+                <b>Author:</b> Yvette Williams<br><br>
+            </p>
+        </div> 
 
     </div>
     
