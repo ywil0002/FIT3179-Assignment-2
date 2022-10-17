@@ -96,6 +96,47 @@
                     {"field": "rating", "type": "quantitative", "title": "Rating"}
                 ]
             }
+        },
+        {
+            "mark": {
+                "type": "circle"
+            },
+            "transform": [{"filter": {"field": "surname", "oneOf": ["Carlsen", "Caruana", "Duda", "Ding", "Rapport", "Nakamura", "Firouzja", "Radjabov", "Nepomniachtchi"]}}],
+            "encoding": {
+                "x":{
+                    "field": "rating_type", 
+                    "type": "nominal",
+                    "axis": {
+                        "grid": true
+                    },
+                    "scale": {"padding": 0.15}
+                },
+            "y":{
+                    "field": "rating",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [2550,2910]
+                    },
+                    "axis": {
+                        "grid": false
+                    }
+                },
+                "detail": {"field": "name", "type": "nominal"},
+                "size": {"value": 50},
+                "color": {
+                    "field": "surname",
+                    "scale": {
+                        "domain": ["Carlsen", "Caruana", "Duda", "Ding", "Rapport", "Nakamura", "Firouzja", "Radjabov", "Nepomniachtchi"],
+                        "range": ["#e60049", "#0bb4ff", "#50e991", "#e6d800", "#9b19f5", "#ffa300", "#dc0ab4", "brown", "#00bfa0"]
+                    }
+                },
+                "tooltip": [
+                    {"field": "name", "type": "nominal", "title":"Player Name"},
+                    {"field": "federation", "type": "nominal", "title":"Country"},
+                    {"field": "title", "type": "nominal", "title": "Title"},
+                    {"field": "rating", "type": "quantitative", "title": "Rating"}
+                ]
+            }
         }
     ],
     "config": {
